@@ -1,0 +1,17 @@
+# Site settings
+title: Danny DeBelius
+email: danny.debelius@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I am a designer and developer at NPR.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://dannydb.github.io" # the base hostname & protocol for your site
+instagram_username: dannydb
+facebook_username: danny.debelius
+flickr_username: dannydebelius
+twitter_username: dannydb
+github_username:  dannydb
+linkedin_username: dannydebelius
+lastfm_username: dannydb
+
+# Build settings
+markdown: kramdown

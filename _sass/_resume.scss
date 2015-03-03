@@ -1,0 +1,27 @@
+.resume {
+	background: #fff;
+	color: #333;
+}
+
+.resume .post {
+	h2 {
+		font-weight: 300;
+		font-family: $font-family-sans;
+		// text-transform: uppercase;
+		// letter-spacing: 0.1rem;
+	}
+
+	h3 {
+		margin-bottom: 0;
+		margin-top: $base-line-height-computed;
+	}
+
+	p {
+		font-weight: 400;
+	}
+
+	p em {
+		font-style: normal;
+		color: #999;
+	}
+}
