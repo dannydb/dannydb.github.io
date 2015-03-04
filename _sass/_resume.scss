@@ -21,9 +21,15 @@
 		font-weight: 400;
 	}
 
+	h3 + p {
+		line-height: 1.2;
+	}
+
 	p em {
+		// font-family: $font-family-serif;
 		font-style: normal;
-		color: #666;
-		font-weight: 300;
+		color: #999;
+		font-weight: 400;
+		font-size: $base-font-size * 0.8;
 	}
 }

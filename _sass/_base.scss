@@ -87,9 +87,9 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
-    margin-left: $spacing-unit;
-}
+    ul, ol {
+        margin-left: 1rem;
+    }
 
 li {
     > ul,

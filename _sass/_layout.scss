@@ -45,9 +45,7 @@
     }
 
     + .inline-list {
-        text-transform: lowercase;
         font-size: $base-font-size;
-        font-family: $font-family-serif;
         // letter-spacing: 0.1rem;
 
         a {
@@ -69,19 +67,18 @@
 
  .header-small {
     // @include grid-row();
-    background: $red;
+    background: $sand;
     color: $green-bright;
+    font-family: $font-family-serif;
 
     .tab-bar {
-        background: $grey-dark;
+        background: lighten(desaturate($sand, 10%), 30%);
     }
 
     h2 {
         // @include grid-column(12);
         margin-bottom: 0;
         // padding: 1rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
         font-weight: normal;
         font-size: $base-font-size * 1.2;
         text-transform: lowercase;
@@ -98,7 +95,7 @@
  }
 
  .page-header {
-    background: $orange;
+    background: mix($grey-color-light, $teal-dark);
     overflow: hidden;
     margin-bottom: $base-line-height-computed;
 
@@ -110,5 +107,5 @@
  }
 
  .right-off-canvas-menu {
-    background: $green-bright;
+    background: $grey-dark;
  }
