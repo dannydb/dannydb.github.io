@@ -47,4 +47,11 @@
   image: songs.png
   name: "Songs We Love 2014"
   repo: "nprapps/bestsongs14"
-  url: "http://apps.npr.org/best-songs-2014"
+  url: "http://apps.npr.org/best-songs-2014/"
+- 
+  date: "March 3, 2015"
+  description: "What to listen to at SXSW 2015"
+  image: austin.png
+  name: "The Austin 100"
+  repo: "nprapps/austin"
+  url: "http://apps.npr.org/austin/"
