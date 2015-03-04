@@ -1,5 +1,12 @@
 --- 
 - 
+  date: "July 22, 2012"
+  description: "The Marcellus Shale has been underneath Pennsylvania for centuries, but the extraction of natural gas began only recently. The “fracking” boom is changing the landscape of northeastern and southwestern Pennsylvania. Use this tool to learn which operators are drilling, and where. Find active wells in your county or municipality — and see whether the drillers have been cited for violating state environmental regulations."
+  image: shaleplay.png
+  name: "Shale Play"
+  repo: "stateimpact/arrested-development"
+  url: "http://stateimpact.npr.org/pennsylvania/drilling/"
+- 
   date: "May 18, 2013"
   description: "NPR's guide to the running gags from the show."
   image: arresteddevelopment.png

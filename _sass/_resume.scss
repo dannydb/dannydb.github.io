@@ -12,6 +12,7 @@
 	}
 
 	h3 {
+		font-size: $h4-font-size;
 		margin-bottom: 0;
 		margin-top: $base-line-height-computed;
 	}
@@ -22,6 +23,7 @@
 
 	p em {
 		font-style: normal;
-		color: #999;
+		color: #666;
+		font-weight: 300;
 	}
 }

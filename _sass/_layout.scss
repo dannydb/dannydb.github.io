@@ -23,7 +23,7 @@
  	// font-family: "alternate-gothic-no-2-d", sans-serif;
  	text-transform: lowercase;
  	// letter-spacing: 1rem;
-    color: $green-bright;
+    color: $red;
     font-family: $font-family-serif;
     font-size: 4rem;
  	font-weight: 600;
@@ -43,6 +43,18 @@
 	    	text-decoration: none;
 	    }
     }
+
+    + .inline-list {
+        text-transform: lowercase;
+        font-size: $base-font-size;
+        font-family: $font-family-serif;
+        // letter-spacing: 0.1rem;
+
+        a {
+            color: #fff;
+            font-weight: 400;
+        }
+    }
  }
 
  .social-media-list {
@@ -57,21 +69,26 @@
 
  .header-small {
     // @include grid-row();
-    background: $grey-dark;
+    background: $red;
     color: $green-bright;
+
+    .tab-bar {
+        background: $grey-dark;
+    }
 
     h2 {
         // @include grid-column(12);
-        @extend %wrapper;
         margin-bottom: 0;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        // padding: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
         font-weight: normal;
+        font-size: $base-font-size * 1.2;
         text-transform: lowercase;
     }
 
     h2 a {
-        color: $green-bright;
+        color: $red;
 
         &:hover {
             text-decoration: none;
@@ -81,7 +98,7 @@
  }
 
  .page-header {
-    background: $teal-medium;
+    background: $orange;
     overflow: hidden;
     margin-bottom: $base-line-height-computed;
 
@@ -90,4 +107,8 @@
         margin: $base-line-height-computed * 2 0 $base-line-height-computed;
         color: #fff;
     }
+ }
+
+ .right-off-canvas-menu {
+    background: $green-bright;
  }

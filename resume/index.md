@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Resume"
+title: "Résumé"
 body_class: resume
 ---
 
@@ -84,12 +84,10 @@ _Pre-Journalism, 2000 — 2001_
 
 ## Skills
 
-**Fluent** in semantic, standards-based HTML/CSS design, LESS, SASS, Django templates, Adobe Creative
-Suite, Adobe Lightroom, Textmate, Sublime Text, Coda
+**Fluent** in HTML, CSS, Javascript, LESS, SASS, Git, Sketch, Adobe Creative
+Suite, Adobe Lightroom, Sublime Text
 
-**Proficient** in Javascript, JSON, XML, jQuery, MooTools, AJAX, HTML5,
-CSS3, Wordpress theme development, SVN, Git, Vim, bash, digital photography techniques,
-audio production, Avid Pro Tools
+**Proficient** in Python, Node, D3, Wordpress, SVN, Vim, bash
 
 ## Awards
 
