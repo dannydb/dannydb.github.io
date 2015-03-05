@@ -146,5 +146,10 @@
  }
 
  .right-off-canvas-menu {
-    background: $grey-color-dark;
+    background: $blue;
+
+    ul.off-canvas-list li a {
+        color: #fff;
+        border-color: #fff;
+    }
  }

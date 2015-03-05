@@ -8,7 +8,7 @@
 // Off Canvas Tab Bar Variables
 $include-html-off-canvas-classes: $include-html-classes !default;
 
-$tabbar-bg: $oil !default;
+$tabbar-bg: $blue !default;
 $tabbar-height: rem-calc(45) !default;
 $tabbar-icon-width: $tabbar-height !default;
 $tabbar-line-height: $tabbar-height !default;
@@ -70,7 +70,7 @@ $tabbar-hamburger-icon-gap: 6px !default;
 // Off Canvas Back-Link Overlay
 $off-canvas-overlay-transition: background 300ms ease !default;
 $off-canvas-overlay-cursor: pointer !default;
-$off-canvas-overlay-box-shadow: -4px 0 4px rgba($black, .5), 4px 0 4px rgba($black, .5) !default;
+$off-canvas-overlay-box-shadow: none; //-4px 0 4px rgba($black, .5), 4px 0 4px rgba($black, .5) !default;
 $off-canvas-overlay-background: rgba($white, .2) !default;
 $off-canvas-overlay-background-hover: rgba($white, .05) !default;
 

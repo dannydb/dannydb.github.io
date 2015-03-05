@@ -4,8 +4,8 @@
 	}
 
 	header + .wrapper {
-		max-width: 100%;
-		padding: 0 0.625rem;
+		// max-width: 100%;
+		// padding: 0 0.625rem;
 		overflow: hidden;
 	}
 
@@ -15,76 +15,102 @@
 
 	.project {
 		position: relative;
-		background-size: cover;
-		background-position: top left;
+		overflow: hidden;
 
-		@media #{ $small-only } {
-			padding-bottom: 50%;
-		}
 
-		@media #{ $medium-only } {
-			padding-bottom: (100%/3);
-		}
-
-		@media #{ $large-up } {
-			padding-bottom: 25%;
-		}
-
-		&:before {
-			content: ' ';
-			position: absolute;
+		.project-poster {
+			position: relative;
 			display: block;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			background: fade-out($blue, 0.05);
-			opacity:0;
+			background-size: cover;
+			background-position: top left;
+			padding-bottom: 100%;
+
+			.touch & {
+				padding-bottom: 56.25%;
+				margin-bottom: $base-line-height-computed/2;
+			}
+
+			.no-touch & {
+				&:before {
+					content: ' ';
+					position: absolute;
+					display: block;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background: fade-out($blue, 0.05);
+					opacity:0;
+				}
+			}
 		}
 
-		&:before,
-		.project-info {
-			@include single-transition(opacity);
-		}
-
-		&:hover {
-			&:before,
+		.no-touch & {
+			.project-poster:before,
 			.project-info {
-				opacity: 1;
+				@include single-transition(opacity, 200ms, ease-in-out, 0);
+			}
+
+			&:hover {
+				.project-poster:before,
+				.project-info {
+					opacity: 1;
+				}
+
+				h2 a {
+					@include translate2d(0, 0);
+					opacity: 1;
+				}
 			}
 		}
 	}
 
 	.project-info {
-		position: absolute;
-		opacity: 0;
-		z-index: 100;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		padding: 1rem;
-
 		h2 {
-			font-size: $base-font-size * 2;
 			line-height: 1.1;
+			font-size: $base-font-size * 1.3;
 			font-family: $font-family-sans;
 			font-weight: 700;
 			margin-bottom: $base-line-height-computed/2;
 		}
 
-		h2 a {
-			display: block;
-			color: #fff;
+		.touch & {
+			h2 a {
+				color: $text-color;
+			}
+		}
+
+		.no-touch & {
 			position: absolute;
+			opacity: 0;
+			z-index: 100;
 			top: 0;
-			right: 0;
-			bottom: 0;
 			left: 0;
+			bottom: 0;
+			right: 0;
 			padding: 1rem;
 
-			&:hover {
-				text-decoration: none;
+			h2 {
+				font-size: $base-font-size * 1.5;
+			}
+
+			h2 a {
+				display: block;
+				color: #fff;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				padding: 1rem;
+
+				@include single-transition(all, 200ms, ease-in-out, 10ms);
+				@include translate2d(-100%, 0);
+				opacity: 0;
+
+				&:hover {
+					text-decoration: none;
+				}
 			}
 		}
 

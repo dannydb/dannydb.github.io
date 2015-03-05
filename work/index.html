@@ -3,12 +3,10 @@ layout: page
 title: "Projects"
 body_class: work
 ---
-<ul class="projects small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+<ul class="projects small-block-grid-1 medium-block-grid-2 large-block-grid-3">
 {% for project in site.data.projects reversed %}
-    <li class="project" style="background-image: url('/img/{{ project.image }}');">
-<!--         <div class="image">
-            <a href="{{ project.url }}"><img src="/img/{{ project.image }}"></a>
-        </div> -->
+    <li class="project">
+        <a href="{{ project.url }}" class="project-poster" style="background-image: url('/img/{{ project.image }}');"></a>
         <div class="project-info">
             <h2>
                 <a class="post-link" href="{{ project.url }}">{{ project.name }}</a>
