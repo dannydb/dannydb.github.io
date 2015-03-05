@@ -5,20 +5,23 @@ layout: default
 <div class="off-canvas-wrap" data-offcanvas>
 	<div class="inner-wrap">
 		<div class="header-small">
-                <nav class="tab-bar">
-                    <section class="left tab-bar-section">
-                        <h2 class="left"><a href="/">{{ site.title }}</a></h2>
+            <nav class="hide-for-small-only">
+                <h2 class="left"><a href="/">{{ site.title }}</a></h2>
 
-                        <ul class="inline-list right">
-                            <li><a href="/work">Projects</a></li>
-                            <li><a href="/resume">Résumé</a></li>
-                        </ul>
-                    </section>
+                <ul class="inline-list right">
+                    <li><a href="/work">Projects</a></li>
+                    <li><a href="/resume">Résumé</a></li>
+                </ul>
+            </nav>
 
-                    <section class="show-for-small-only right-small">
-                        <a class="right-off-canvas-toggle menu-icon" href="#site-nav"><span></span></a>
-                    </section>
-                </nav>
+            <nav class="tab-bar hide-for-medium-up">
+                <section class="left tab-bar-section">
+                    <h2><a href="/">{{ site.title }}</a></h2>
+                </section>
+                <section class="right-small">
+                    <a class="right-off-canvas-toggle menu-icon" href="#site-nav"><span></span></a>
+                </section>
+            </nav>
 		</div>
 
 		<div class="post">

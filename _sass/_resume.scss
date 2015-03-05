@@ -7,8 +7,6 @@
 	h2 {
 		font-weight: 300;
 		font-family: $font-family-sans;
-		// text-transform: uppercase;
-		// letter-spacing: 0.1rem;
 	}
 
 	h3 {
@@ -21,12 +19,11 @@
 		font-weight: 400;
 	}
 
-	h3 + p {
-		line-height: 1.2;
-	}
+	// h3 + p {
+	// 	line-height: 1.2;
+	// }
 
 	p em {
-		// font-family: $font-family-serif;
 		font-style: normal;
 		color: #999;
 		font-weight: 400;

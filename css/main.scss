@@ -9,6 +9,7 @@
 $base-font-size:   1rem;
 $font-family-sans: "ff-dagny-web-pro", Helvetica, Arial, sans-serif;
 $font-family-serif: "clarendon-text-pro", Georgia, serif;
+$font-family-logo: "clarendon-wide", Georgia, serif;
 $base-font-family: $font-family-sans;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -22,20 +23,28 @@ $spacing-unit:     2rem;
 // $green-bright:     #D1DA04;
 // $green-muted:      #B9C52A;
 
-$grey-dark:		   #000110;
-$teal-light:       #0195A9;
-$teal-medium:      #026771;
-$teal-dark:        #033940;
-$green-bright:     #77C048;
+// $grey-dark:		   #000110;
+// $teal-light:       #0195A9;
+// $teal-medium:      #026771;
+// $teal-dark:        #033940;
+// $green-bright:     #77C048;
 
-$teal:             #0C6C74;
-$sand:             #BE9973;
-$orange:           #F57A50;
-$red:              #F36252;
+// $teal:             #0C6C74;
+// $sand:             #BE9973;
+// $orange:           #F57A50;
+// $red:              #F36252;
+
+// $teal:                #298A9E;
+// $grey-dark:           #252222;
+// $grey-light:          #C1B3A6;
+// $red:                 #F15543;
+// $pink:                #A07E85;
+
+$blue: #006bed;
 
 $text-color:       #333;
 $background-color: #fff;
-$brand-color:      $teal-light;
+$brand-color:      $blue;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

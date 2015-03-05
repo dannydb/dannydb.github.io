@@ -3,8 +3,8 @@
  */
 
 .homepage {
-    background: $grey-dark;
-    color: #eee;
+    background: #fff;
+    color: $text-color;
 }
 
 .homepage .wrapper {
@@ -23,11 +23,12 @@
  	// font-family: "alternate-gothic-no-2-d", sans-serif;
  	text-transform: lowercase;
  	// letter-spacing: 1rem;
-    color: $red;
+    color: #000;
     font-family: $font-family-serif;
     font-size: 4rem;
- 	font-weight: 600;
- 	line-height: 1.1;
+ 	font-weight: 700;
+ 	line-height: 1.5;
+    vertical-align: top;
  }
 
  .intro {
@@ -37,9 +38,10 @@
 
     a {
     	font-weight: 700;
+        color: $blue;
 
     	&:hover {
-	    	color: #eee;
+	    	color: $text-color;
 	    	text-decoration: none;
 	    }
     }
@@ -49,8 +51,13 @@
         // letter-spacing: 0.1rem;
 
         a {
-            color: #fff;
+            color: $blue;
             font-weight: 400;
+
+            &:hover {
+                text-decoration: none;
+                color: $text-color;
+            }
         }
     }
  }
@@ -63,16 +70,23 @@
          display: inline-block;
          font-size: 1.5rem;
      }
+
+     a {
+        color: $grey-color-dark;
+
+        &:hover {
+            color: $blue;
+        }
+     }
  }
 
  .header-small {
     // @include grid-row();
-    background: $sand;
-    color: $green-bright;
-    font-family: $font-family-serif;
+    border-bottom: 1px solid $grey-color-light;
+    overflow: hidden;
 
     .tab-bar {
-        background: lighten(desaturate($sand, 10%), 30%);
+        background: #fff;
     }
 
     h2 {
@@ -80,32 +94,53 @@
         margin-bottom: 0;
         // padding: 1rem;
         font-weight: normal;
+        font-family: $font-family-serif;
         font-size: $base-font-size * 1.2;
+        font-weight: 700;
         text-transform: lowercase;
+        vertical-align: middle;
+        line-height: 2.8125rem;
+        margin-left: 1rem;
     }
 
     h2 a {
-        color: $red;
+        color: #000;
 
         &:hover {
             text-decoration: none;
-            color: #fff;
+            color: $blue;
         }
+    }
+
+    .inline-list {
+        margin-bottom: 0;
+        margin-right: 1rem;
+    }
+
+    .inline-list li {
+        line-height: 2.8125rem;
+    }
+
+    .right-small {
+        border-color: $grey-color-light;
+    }
+
+    .menu-icon span:after {
+        box-shadow: 0 0 0 1px #111, 0 7px 0 1px #111, 0 14px 0 1px #111;
     }
  }
 
  .page-header {
-    background: mix($grey-color-light, $teal-dark);
     overflow: hidden;
-    margin-bottom: $base-line-height-computed;
 
     h1 {
         font-family: $font-family-sans;
         margin: $base-line-height-computed * 2 0 $base-line-height-computed;
-        color: #fff;
+        color: #111;
+        font-weight: 900;
     }
  }
 
  .right-off-canvas-menu {
-    background: $grey-dark;
+    background: $grey-color-dark;
  }
