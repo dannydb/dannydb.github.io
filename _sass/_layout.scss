@@ -118,6 +118,7 @@
             display: inline-block;
             position: relative;
             color: #fff;
+            @include transition(all 200ms ease-in-out);
 
             &:before {
                 display: block;
@@ -152,6 +153,7 @@
 
                 .first {
                     color: $blue;
+                    @include transform(rotate(360deg));
 
                     &:before {
                         // opacity: 0;
