@@ -71,7 +71,7 @@ $base-line-height: 1.5 !default;
 // $property - Default: all, Options: http://www.w3.org/TR/css3-transitions/#animatable-properties
 // $speed - Default: 300ms
 // $ease - Default:ease-out, Options: http://css-tricks.com/almanac/properties/t/transition-timing-function/
-@mixin single-transition($property:all, $speed:300ms, $ease:ease-out, $delay:0) {
+@mixin single-transition($property:all, $speed:300ms, $ease:ease-out, $delay:none) {
   -webkit-transition: $property $speed $ease $delay;
   transition: $property $speed $ease $delay;
 }

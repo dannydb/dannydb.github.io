@@ -2,6 +2,12 @@
  * Site header
  */
 
+
+ * {
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+ }
+
 .homepage {
     background: #fff;
     color: $text-color;
@@ -90,9 +96,11 @@
     }
 
     h2 {
-        // @include grid-column(12);
         margin-bottom: 0;
-        // padding: 1rem;
+    }
+
+    h2 a {
+        display: inline-block;
         font-weight: normal;
         font-family: $font-family-serif;
         font-size: $base-font-size * 1.2;
@@ -101,15 +109,47 @@
         vertical-align: middle;
         line-height: 2.8125rem;
         margin-left: 1rem;
-    }
+        cursor: pointer;
+        color: transparent;
+        @include transition(color 200ms ease-in-out);
 
-    h2 a {
-        color: #000;
+        .first {
+            color: #fff;
 
-        &:hover {
-            text-decoration: none;
-            color: $blue;
+            &:before {
+                display: block;
+                content: ' ';
+                background: $blue;
+                width: 2rem;
+                height: 2rem;
+                position: absolute;
+                left: -0.5rem;
+                top: 0.35rem;
+                z-index: -1;
+                // opacity: 1;
+                @include radius(1rem);
+                @include transform(scale(1));
+                @include transition(all 200ms ease-in-out);
+                -webkit-backface-visibility: hidden;
+            }
         }
+
+        .no-touch {
+            &:hover {
+                text-decoration: none;
+                color: $blue;
+
+                .first {
+                    color: $blue;
+
+                    &:before {
+                        // opacity: 0;
+                        @include transform(scale(0));
+                    }
+                }
+            }
+        }
+
     }
 
     .inline-list {
@@ -150,6 +190,6 @@
 
     ul.off-canvas-list li a {
         color: #fff;
-        border-color: #fff;
+        border-color: fade-out(#fff, 30%);
     }
  }
