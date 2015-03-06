@@ -115,6 +115,8 @@
         @include transition(color 200ms ease-in-out);
 
         .first {
+            display: inline-block;
+            position: relative;
             color: #fff;
 
             &:before {
