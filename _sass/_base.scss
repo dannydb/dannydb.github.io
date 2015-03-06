@@ -9,6 +9,10 @@ dl, dd, ol, ul, figure {
 }
 
 
+* {
+    @include box-sizing(border-box);
+}
+
 
 /**
  * Basic styling
@@ -181,22 +185,31 @@ pre {
  */
 .wrapper,
 %wrapper {
-    max-width: -webkit-calc(1024px - (#{$spacing-unit} * 2));
-    max-width:         calc(1024px - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
+    // max-width: -webkit-calc(1024px - (#{$spacing-unit} * 2));
+    // max-width:         calc(1024px - (#{$spacing-unit} * 2));
+    // margin-right: auto;
+    // margin-left: auto;
+    // padding-right: $spacing-unit;
+    // padding-left: $spacing-unit;
+    // @extend %clearfix;
 
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$spacing-unit}));
-        max-width:         calc(800px - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+    // @include media-query($on-laptop) {
+    //     max-width: -webkit-calc(800px - (#{$spacing-unit}));
+    //     max-width:         calc(800px - (#{$spacing-unit}));
+    //     padding-right: $spacing-unit / 2;
+    //     padding-left: $spacing-unit / 2;
+    // }
+
+    @include grid-column($columns: 12, $center: true);
+
+    @media #{$medium-up} {
+        @include grid-column($columns: 10, $center: true);
     }
 
-    // @include grid-column(12);
+    @media #{$large-up} {
+        @include grid-column($columns: 8, $center: true);
+    }
+
 }
 
 
