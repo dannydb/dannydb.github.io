@@ -135,7 +135,15 @@
             }
         }
 
-        .no-touch {
+        .full {
+            display: inline-block;
+            color: #fff;
+            @include transform(scaleX(0));
+            @include transform-origin(left center);
+            @include transition(all 200ms ease-in-out);
+        }
+
+        .no-touch & {
             &:hover {
                 text-decoration: none;
                 color: $blue;
@@ -148,9 +156,13 @@
                         @include transform(scale(0));
                     }
                 }
+
+                .full {
+                    color: $blue;
+                    @include transform(scaleX(1));
+                }
             }
         }
-
     }
 
     .inline-list {
