@@ -196,10 +196,11 @@
     overflow: hidden;
 
     h1 {
-        font-family: $font-family-sans;
+        font-family: $font-family-serif;
         margin: $base-line-height-computed * 2 0 $base-line-height-computed;
         color: #111;
-        font-weight: 900;
+        font-weight: 700;
+        text-transform: lowercase;
     }
  }
 
