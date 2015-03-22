@@ -246,6 +246,10 @@
         line-height: 2.8125rem;
     }
 
+    .inline-list li a {
+        text-transform: lowercase;
+    }
+
     .right-small {
         border-color: $grey-color-light;
     }
@@ -277,5 +281,6 @@
     ul.off-canvas-list li a {
         color: #fff;
         border-color: fade-out(#fff, 0.5);
+        text-transform: lowercase;
     }
  }
