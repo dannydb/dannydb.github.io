@@ -51,6 +51,10 @@
         bottom: 0;
         left: 0;
         left: 50%;
+        
+        @media (max-aspect-ratio: 7/6) {
+            background-position: left center;
+        }
     }
 }
 
