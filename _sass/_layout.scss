@@ -153,8 +153,14 @@
  .homepage .inline-list,
  .homepage .social-media-list {
     @media #{$small-only} {
+        text-align: center;
         margin-left: $column-gutter / 2;
         margin-right: $column-gutter / 2;
+
+        li {
+            float: none;
+            display: inline-block;
+        }
     }
  }
 
