@@ -11,12 +11,17 @@ body_class: resume
 _NPR, Washington, DC._  
 _April 2013 — Present_
 
+*   Designed visuals and interactions for Visuals team projects
+*   Authored HTML, LESS, CSS, Javascript and Python to realize project designs in code
+*   Tested interfaces to improve user experience
+*   Contributed to the NPR Visuals app template, dailygraphics rig and other open-source tools used in our project stack
+
 ### Senior User Experience Designer
 
 _NPR, Washington, DC._  
 _April 2011 — April 2013_
 
-*   Led user interface design for StateImpact blogging platform and news applications
+*   Led user interface design for StateImpact editorial platform and news applications
 *   Contributed to the front-end development of StateImpact’s Wordpress theme and special projects
 *   Collaborated with NPR user testing group to improve user experience
 
