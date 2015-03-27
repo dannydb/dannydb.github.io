@@ -10,8 +10,6 @@
         {{ content }}
 
         <script src="/js/jquery.min.js"></script>
-        <script src="/js/foundation.js"></script>
-        <script src="/js/foundation.offcanvas.js"></script>
 
         <script>
             var sizeTitleCard = function() {
@@ -28,10 +26,13 @@
                 return false;
             }
 
-            $(document).foundation();
+            var onDocumentLoad = function() {
+                $('.portrait').addClass('is-visible');
+            }
+
             $(window).on('resize', sizeTitleCard);
             $('.title-card-nav a').on('click', scrollToAnchor);
-
+            $(onDocumentLoad);
             sizeTitleCard();
 
         </script>
