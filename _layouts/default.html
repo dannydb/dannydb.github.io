@@ -41,12 +41,19 @@
                 scrollToElement($('#resume'));
             }
 
+            var onNavClick = function(e) {
+                e.preventDefault();
+                window.location.hash = '';
+                window.location.hash = $(this).attr('href');
+            }
+
             var routes = {
                 '/work': onWorkRoute,
                 '/resume': onResumeRoute
             };
 
             $(window).on('resize', sizeTitleCard);
+            $('.title-card-nav a').on('click', onNavClick);
             // $(document).foundation();
             var router = Router(routes);
             router.init();
