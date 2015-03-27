@@ -32,8 +32,6 @@
     background-size: cover;
     background-image: url('../img/blue.jpg');
     background-position: center center;
-    opacity: 0;
-    @include transition(opacity 500ms ease-in-out 500ms);
 
     @media #{$small-only} {
         width: 100%;
@@ -51,7 +49,9 @@
         bottom: 0;
         left: 0;
         left: 50%;
-        
+        opacity: 0;
+        @include transition(opacity 500ms ease-in-out 500ms);
+
         @media (orientation: portrait) and (device-aspect-ratio: 3/4) {
             background-position: 15% center;
         }
