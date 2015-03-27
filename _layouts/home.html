@@ -2,6 +2,13 @@
 layout: default
 ---
 
+<div data-magellan-expedition="fixed">
+  <dl class="sub-nav nav">
+    <dd data-magellan-arrival="work"><a data-target="#work" href="#/work">Projects</a></dd>
+    <dd data-magellan-arrival="resume"><a data-target="#resume" href="#/resume">Résumé</a></dd>
+  </dl>
+</div>
+
 <div class="post title-card">
     <div class="portrait show-for-medium-up"></div>
 
@@ -9,9 +16,9 @@ layout: default
         <h2 class="logo">{{ site.title }}</h2>
         <div class="portrait show-for-small-only"></div>
         <p class="intro">I'm a designer and developer at <a href="http://npr.org">NPR</a>, formerly of the Las Vegas Sun and the Rocky Mountain News.</p>
-        <ul class="inline-list title-card-nav">
-            <li><a href="#/work">Projects</a></li>
-            <li><a href="#/resume">Résumé</a></li>
+        <ul class="inline-list title-card-nav nav">
+            <li><a data-target="#work" href="#/work">Projects</a></li>
+            <li><a data-target="#resume" href="#/resume">Résumé</a></li>
         </ul>
 
         <ul class="social-media-list">
@@ -77,13 +84,6 @@ layout: default
         </ul>
     </div>
 </div>
-
-<!-- <div data-magellan-expedition="fixed">
-  <dl class="sub-nav">
-    <dd data-magellan-arrival="work"><a href="#/work">Projects</a></dd>
-    <dd data-magellan-arrival="resume"><a href="#/resume">Résumé</a></dd>
-  </dl>
-</div> -->
 
 <!-- <a name="/work"></a> -->
 <div id="work" data-magellan-destination="work" class="post work">

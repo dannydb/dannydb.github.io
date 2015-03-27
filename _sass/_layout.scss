@@ -3,10 +3,12 @@
  */
 
 .title-card {
+    position: relative;
     padding-top: 2rem;
     background: $blue;
     color: #fff;
     height: 100%;
+    z-index: 600;
 }
 
 .title-card .wrapper {
@@ -176,6 +178,10 @@
 
  [data-magellan-expedition],
  [data-magellan-expedition-clone] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: 0;
     z-index: 500;
     background: fade-out($blue, 0.1);
