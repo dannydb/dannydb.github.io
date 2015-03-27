@@ -160,10 +160,10 @@
 
  }
 
- .title-card .logo,
- .title-card .intro,
- .title-card .inline-list,
- .title-card .social-media-list {
+.title-card .logo,
+.title-card .intro,
+.title-card .inline-list,
+.title-card .social-media-list {
     @media #{$small-only} {
         text-align: center;
         margin-left: $column-gutter / 2;
@@ -174,10 +174,10 @@
             display: inline-block;
         }
     }
- }
+}
 
- [data-magellan-expedition],
- [data-magellan-expedition-clone] {
+[data-magellan-expedition],
+[data-magellan-expedition-clone] {
     position: fixed;
     top: 0;
     left: 0;
@@ -185,9 +185,9 @@
     padding: 0;
     z-index: 500;
     background: fade-out($blue, 0.1);
- }
+}
 
- .sub-nav {
+.sub-nav {
     padding: 0;
 
     @include grid-column($columns: 12, $center: true);
@@ -231,9 +231,18 @@
             text-decoration: underline;
         }
     }
- }
+}
 
- .header-small {
+.touch {
+    .sub-nav,
+    .sub-nav dd,
+    .sub-nav dd a {
+        height: 44px;
+        font-size: 2rem;
+    }
+}
+
+.header-small {
     // @include grid-row();
     border-bottom: 1px solid $grey-color-light;
     overflow: hidden;
@@ -340,9 +349,9 @@
     .tab-bar-section {
         padding: 0;
     }
- }
+}
 
- .page-header {
+.page-header {
     overflow: hidden;
 
     h1 {
@@ -352,9 +361,9 @@
         font-weight: 700;
         text-transform: lowercase;
     }
- }
+}
 
- .right-off-canvas-menu {
+.right-off-canvas-menu {
     background: $blue;
 
     ul.off-canvas-list li a {
@@ -362,4 +371,4 @@
         border-color: fade-out(#fff, 0.5);
         text-transform: lowercase;
     }
- }
+}
