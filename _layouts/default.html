@@ -10,8 +10,8 @@
         {{ content }}
 
         <script src="/js/jquery.min.js"></script>
-        <script src="/js/foundation.js"></script>
-        <script src="/js/foundation.magellan.js"></script>
+        <!-- <script src="/js/foundation.js"></script>
+        <script src="/js/foundation.magellan.js"></script> -->
         <script src="/js/director.min.js"></script>
 
         <script>
@@ -31,8 +31,6 @@
 
             var onDocumentLoad = function() {
                 $('.portrait').addClass('is-visible');
-                var router = Router(routes);
-                router.init();
             }
 
             var onWorkRoute = function() {
@@ -49,7 +47,9 @@
             };
 
             $(window).on('resize', sizeTitleCard);
-            $(document).foundation();
+            // $(document).foundation();
+            var router = Router(routes);
+            router.init();
 
             $(onDocumentLoad);
             sizeTitleCard();
