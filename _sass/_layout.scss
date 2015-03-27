@@ -90,6 +90,7 @@
     a {
     	font-weight: 700;
         color: #000;
+        text-decoration: none;
 
         .no-touch {
             &:hover {
@@ -113,6 +114,7 @@
         color: #000;
         font-weight: 400;
         text-transform: lowercase;
+        text-decoration: none;
 
         .no-touch {
             &:hover {
