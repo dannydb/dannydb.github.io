@@ -33,7 +33,7 @@
     background-image: url('../img/blue.jpg');
     background-position: center center;
     opacity: 0;
-    @include transition(opacity 500ms ease-in-out 200ms);
+    @include transition(opacity 500ms ease-in-out 500ms);
 
     @media #{$small-only} {
         width: 100%;
