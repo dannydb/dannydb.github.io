@@ -10,8 +10,8 @@ layout: default
         <div class="portrait show-for-small-only"></div>
         <p class="intro">I'm a designer and developer at <a href="http://npr.org">NPR</a>, formerly of the Las Vegas Sun and the Rocky Mountain News.</p>
         <ul class="inline-list title-card-nav">
-            <li><a href="#work">Projects</a></li>
-            <li><a href="#resume">Résumé</a></li>
+            <li><a href="#/work">Projects</a></li>
+            <li><a href="#/resume">Résumé</a></li>
         </ul>
 
         <ul class="social-media-list">
@@ -78,7 +78,15 @@ layout: default
     </div>
 </div>
 
-<div id="work" class="post work">
+<div data-magellan-expedition="fixed">
+  <dl class="sub-nav">
+    <dd data-magellan-arrival="work"><a href="#/work">Projects</a></dd>
+    <dd data-magellan-arrival="resume"><a href="#/resume">Résumé</a></dd>
+  </dl>
+</div>
+
+<a name="/work"></a>
+<div id="work" data-magellan-destination="work" class="post work">
     <header class="page-header">
         <div class="wrapper">
             <h1 class="post-title">Projects</h1>
@@ -105,7 +113,8 @@ layout: default
     </div>
 </div>
 
-<div id="resume" class="post resume">
+<a name="/resume"></a>
+<div id="resume" data-magellan-destination="resume" class="post resume">
     <header class="page-header">
         <div class="wrapper">
             <h1 class="post-title">Résumé</h1>

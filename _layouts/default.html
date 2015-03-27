@@ -10,6 +10,9 @@
         {{ content }}
 
         <script src="/js/jquery.min.js"></script>
+        <script src="/js/foundation.js"></script>
+        <script src="/js/foundation.magellan.js"></script>
+        <script src="/js/director.min.js"></script>
 
         <script>
             var sizeTitleCard = function() {
@@ -19,19 +22,35 @@
                 });
             }
 
-            var scrollToAnchor = function() {
+            var scrollToElement = function($el) {
                 $('html, body').animate({
-                    scrollTop: $( $.attr(this, 'href') ).offset().top
+                    scrollTop: $el.offset().top
                 }, 500);
                 return false;
             }
 
             var onDocumentLoad = function() {
                 $('.portrait').addClass('is-visible');
+                var router = Router(routes);
+                router.init();
             }
 
+            var onWorkRoute = function() {
+                scrollToElement($('#work'));
+            }
+
+            var onResumeRoute = function() {
+                scrollToElement($('#resume'));
+            }
+
+            var routes = {
+                '/work': onWorkRoute,
+                '/resume': onResumeRoute
+            };
+
             $(window).on('resize', sizeTitleCard);
-            $('.title-card-nav a').on('click', scrollToAnchor);
+            $(document).foundation();
+
             $(onDocumentLoad);
             sizeTitleCard();
 
