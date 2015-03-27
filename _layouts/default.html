@@ -33,6 +33,10 @@
                 $('.portrait').addClass('is-visible');
             }
 
+            var onHomeRoute = function() {
+                scrollToElement($('#intro'));
+            }
+
             var onWorkRoute = function() {
                 scrollToElement($('#work'));
             }
@@ -49,6 +53,7 @@
             }
 
             var routes = {
+                '/intro': onHomeRoute,
                 '/work': onWorkRoute,
                 '/resume': onResumeRoute
             };
