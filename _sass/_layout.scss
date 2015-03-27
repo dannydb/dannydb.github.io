@@ -2,19 +2,15 @@
  * Site header
  */
 
-
- * {
-    -webkit-transform-style: preserve-3d;
-    -webkit-backface-visibility: hidden;
- }
-
-.homepage {
+.title-card {
+    padding-top: 2rem;
     background: $blue;
     color: #fff;
+    height: 100%;
 }
 
-.homepage .wrapper {
-    margin-top: 2rem;
+.title-card .wrapper {
+    margin-top: 0;
     width: auto;
     padding: 0;
 
@@ -31,7 +27,7 @@
     }
 }
 
-.homepage .portrait {
+.title-card .portrait {
     padding-bottom: 100%;
     background-size: cover;
     background-image: url('../img/blue.jpg');
@@ -39,6 +35,8 @@
 
     @media #{$small-only} {
         width: 100%;
+        padding-bottom: 60%;
+        background-image: url('../img/blue_sm.jpg');
         // margin: 0 -($column-gutter / 2);
         // @include calc(width, "100% + #{$column-gutter}");
     }
@@ -100,7 +98,7 @@
     }
 }
 
-.homepage-nav {
+.title-card-nav {
     font-size: $base-font-size;
     margin-left: 0;
 
@@ -148,10 +146,10 @@
 
  }
 
- .homepage .logo,
- .homepage .intro,
- .homepage .inline-list,
- .homepage .social-media-list {
+ .title-card .logo,
+ .title-card .intro,
+ .title-card .inline-list,
+ .title-card .social-media-list {
     @media #{$small-only} {
         text-align: center;
         margin-left: $column-gutter / 2;

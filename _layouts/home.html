@@ -1,0 +1,122 @@
+---
+layout: default
+---
+
+<div class="post title-card">
+    <div class="portrait show-for-medium-up"></div>
+
+    <div class="wrapper">
+        <h2 class="logo">{{ site.title }}</h2>
+        <div class="portrait show-for-small-only"></div>
+        <p class="intro">I'm a designer and developer at <a href="http://npr.org">NPR</a>, formerly of the Las Vegas Sun and the Rocky Mountain News.</p>
+        <ul class="inline-list title-card-nav">
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#resume">Résumé</a></li>
+        </ul>
+
+        <ul class="social-media-list">
+            {% if site.email %}
+            <li><a href="mailto:{{ site.email }}"><i class="icon-mail-1"></i></a></li>
+            {% endif %}
+
+            {% if site.facebook_username %}
+            <li>
+                <a href="https://facebook.com/{{ site.facebook_username }}">
+                    <i class="icon-facebook"></i>
+                </a>
+            </li>
+            {% endif %}
+
+            {% if site.github_username %}
+            <li>
+                <a href="https://github.com/{{ site.github_username }}">
+                    <i class="icon-github-circled"></i>
+                </a>
+            </li>
+            {% endif %}
+
+            {% if site.instagram_username %}
+            <li>
+                    <a href="https://instagram.com/{{ site.instagram_username }}">
+                        <i class="icon-instagram-1"></i>
+                    </a>
+            </li>
+            {% endif %}
+
+            {% if site.flickr_username %}
+            <li>
+                <a href="https://flickr.com/{{ site.flickr_username }}">
+                    <i class="icon-flickr"></i>
+                </a>
+            </li>
+            {% endif %}
+
+            {% if site.lastfm_username %}
+            <li>
+                <a href="http://www.last.fm/user/{{ site.linkedin_username }}">
+                    <i class="icon-lastfm"></i>
+                </a>
+            </li>
+            {% endif %}
+
+            {% if site.linkedin_username %}
+            <li>
+                <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+                    <i class="icon-linkedin-1"></i>
+                </a>
+            </li>
+            {% endif %}
+
+            {% if site.twitter_username %}
+            <li>
+                <a href="https://twitter.com/{{ site.twitter_username }}">
+                    <i class="icon-twitter"></i>
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
+
+<div id="work" class="post work">
+    <header class="page-header">
+        <div class="wrapper">
+            <h1 class="post-title">Projects</h1>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <article class="post-content">
+            <ul class="projects small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+                {% for project in site.data.projects reversed %}
+                <li class="project">
+                    <a href="{{ project.url }}" class="project-poster" style="background-image: url('/img/{{ project.image }}');"></a>
+                    <div class="project-info">
+                        <h2>
+                            <a class="post-link" href="{{ project.url }}">{{ project.name }}</a>
+                        </h2>
+                        <p class="post-meta">{{ project.date }} {% if project.repo %} (<a href="http://github.com/{{ project.repo }}">Repo</a>) {% endif %}</a></p>
+                        <p class="project-description">{{ project.description }}</p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </article>
+    </div>
+</div>
+
+<div id="resume" class="post resume">
+    <header class="page-header">
+        <div class="wrapper">
+            <h1 class="post-title">Résumé</h1>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <article class="post-content">
+            {{ content }}
+        </article>
+    </div>
+</div>
+
+

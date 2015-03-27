@@ -14,8 +14,25 @@
         <script src="/js/foundation.offcanvas.js"></script>
 
         <script>
+            var sizeTitleCard = function() {
+                var windowHeight = $(window).height();
+                $('.title-card').css({
+                    height: windowHeight
+                });
+            }
 
-          $(document).foundation();
+            var scrollToAnchor = function() {
+                $('html, body').animate({
+                    scrollTop: $( $.attr(this, 'href') ).offset().top
+                }, 500);
+                return false;
+            }
+
+            $(document).foundation();
+            $(window).on('resize', sizeTitleCard);
+            $('.title-card-nav a').on('click', scrollToAnchor);
+
+            sizeTitleCard();
 
         </script>
         <script>
