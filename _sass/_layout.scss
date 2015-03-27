@@ -217,8 +217,11 @@
 
         &:hover {
             background: transparent;
-            text-decoration: underline;
             color: #fff;
+
+            .no-touch & {
+                text-decoration: underline;
+            }
         }
     }
 
@@ -229,7 +232,10 @@
         &:hover {
             color: #fff;
             background: transparent;
-            text-decoration: underline;
+
+            .no-touch & {
+                text-decoration: underline;
+            }
         }
     }
 }
