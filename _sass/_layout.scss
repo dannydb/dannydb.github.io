@@ -193,12 +193,12 @@
     @include grid-column($columns: 12, $center: true);
 
     @media #{$medium-up} {
-        @include grid-column($columns: 10, $center: true);
+        @include grid-column($columns: 8, $center: false, $offset: 2);
     }
 
-    @media #{$large-up} {
-        @include grid-column($columns: 8, $center: true);
-    }
+    // @media #{$large-up} {
+    //     @include grid-column($columns: 8, $center: true);
+    // }
 
     dd {
         display: inline-block;
@@ -364,7 +364,8 @@
 
     h1 {
         font-family: $font-family-serif;
-        margin: $base-line-height-computed * 2 0 $base-line-height-computed;
+        font-size: $base-font-size * 1.2;
+        margin: 0.2rem 0 $base-line-height-computed;
         color: #111;
         font-weight: 700;
         text-transform: lowercase;
@@ -379,4 +380,8 @@
         border-color: fade-out(#fff, 0.5);
         text-transform: lowercase;
     }
+}
+
+.post.row {
+    margin-top: $base-line-height-computed * 2;
 }

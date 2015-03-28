@@ -23,8 +23,11 @@
             }
 
             var scrollToElement = function($el) {
+                var subNavHeight = $('.sub-nav').height();
+                var rowMargin = Number.parseInt($('.work').css('margin-top'));
+
                 $('html, body').animate({
-                    scrollTop: $el.offset().top
+                    scrollTop: $el.offset().top - rowMargin
                 }, 500);
                 return false;
             }
