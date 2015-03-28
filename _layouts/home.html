@@ -99,7 +99,7 @@ layout: default
             <ul class="projects small-block-grid-1 medium-block-grid-2 large-block-grid-3">
                 {% for project in site.data.projects reversed %}
                 <li class="project">
-                    <a href="{{ project.url }}" class="project-poster" style="background-image: url('/img/{{ project.image }}');"></a>
+                    <a href="{{ project.url }}" class="project-poster lazy" data-original="/img/{{ project.image }}" style="background-image: url('/img/transparent.png');"></a>
                     <div class="project-info">
                         <h2>
                             <a class="post-link" href="{{ project.url }}">{{ project.name }}</a>

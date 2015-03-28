@@ -10,6 +10,7 @@
         {{ content }}
 
         <script src="/js/jquery.min.js"></script>
+        <script src="/js/jquery.lazyload.min.js"></script>
         <!-- <script src="/js/foundation.js"></script>
         <script src="/js/foundation.magellan.js"></script> -->
         <script src="/js/director.min.js"></script>
@@ -34,6 +35,9 @@
 
             var onDocumentLoad = function() {
                 $('.portrait').addClass('is-visible');
+                $(".lazy").lazyload({
+                      effect : "fadeIn"
+                });
             }
 
             var onHomeRoute = function() {
