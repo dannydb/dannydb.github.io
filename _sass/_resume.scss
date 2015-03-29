@@ -31,6 +31,10 @@
 		line-height: 1.2;
 	}
 
+	li {
+		margin-bottom: $base-line-height-computed/4;
+	}
+
 	p em {
 		font-style: normal;
 		color: #999;
