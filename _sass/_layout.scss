@@ -17,6 +17,7 @@
     padding: 0;
 
     @media #{$medium-up} {
+        @include grid-column($columns: 12, $center: false, $offset: 0, $last-column: true);
         padding-left: $column-gutter / 2;
         padding-right: $column-gutter / 2;
         position: absolute;
@@ -364,12 +365,14 @@
 
     h1 {
         font-family: $font-family-serif;
-        font-size: $base-font-size * 1.5;
+        font-size: $h3-font-size;
         margin: 0 0 $base-line-height-computed;
         color: #111;
         font-weight: 700;
         text-transform: lowercase;
         line-height: 1.35;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: $base-line-height-computed/2;
     }
 }
 

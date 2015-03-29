@@ -203,7 +203,7 @@ pre {
     @include grid-column($columns: 12, $center: true);
 
     @media #{$medium-up} {
-        @include grid-column($columns: 8, $center: false, $last-column: true);
+        @include grid-column($columns: 8, $center: false, $offset: 2, $last-column: true);
     }
 
     // @media #{$large-up} {
@@ -216,7 +216,8 @@ pre {
     @include grid-column($columns: 12, $center: true);
 
     @media #{$medium-up} {
-        @include grid-column($columns: 2, $center: false);
+        @include grid-column($columns: 8, $center: false, $offset: 2, $last-column: true);
+        // @include grid-column($columns: 2, $center: false);
     }
 }
 
