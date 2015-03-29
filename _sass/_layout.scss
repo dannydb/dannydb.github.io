@@ -90,7 +90,7 @@
     }
 
     @media #{$medium-up} {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 300;
         line-height: 1.2;
     }
@@ -364,11 +364,12 @@
 
     h1 {
         font-family: $font-family-serif;
-        font-size: $base-font-size * 1.2;
-        margin: 0.2rem 0 $base-line-height-computed;
+        font-size: $base-font-size * 1.5;
+        margin: 0 0 $base-line-height-computed;
         color: #111;
         font-weight: 700;
         text-transform: lowercase;
+        line-height: 1.35;
     }
 }
 
