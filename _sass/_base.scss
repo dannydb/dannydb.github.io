@@ -203,6 +203,10 @@ pre {
     @include grid-column($columns: 12, $center: true);
 
     @media #{$medium-up} {
+        @include grid-column($columns: 10, $center: false, $offset: 1, $last-column: true);
+    }
+
+    @media #{$large-up} {
         @include grid-column($columns: 8, $center: false, $offset: 2, $last-column: true);
     }
 
@@ -216,6 +220,11 @@ pre {
     @include grid-column($columns: 12, $center: true);
 
     @media #{$medium-up} {
+        @include grid-column($columns: 10, $center: false, $offset: 1, $last-column: true);
+        // @include grid-column($columns: 2, $center: false);
+    }
+
+    @media #{$large-up} {
         @include grid-column($columns: 8, $center: false, $offset: 2, $last-column: true);
         // @include grid-column($columns: 2, $center: false);
     }
