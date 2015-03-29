@@ -388,4 +388,8 @@
 
 .post.row {
     padding: $base-line-height-computed * 2 0;
+
+    .touch & {
+        padding: 55px 0;
+    }
 }
