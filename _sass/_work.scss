@@ -78,7 +78,16 @@
 
 		.touch & {
 			h2 a {
+				display: block;
+				font-size: $base-font-size;
 				color: $text-color;
+				// background: #eee;
+				// padding: 0.5rem;
+				// min-height: 3rem;
+
+			 //    @media #{$medium-up} {
+				// 	font-size: $base-font-size * 0.8;
+			 //    }
 			}
 		}
 
