@@ -17,6 +17,7 @@
     padding: 0;
 
     @media #{$medium-up} {
+        @include grid-column($columns: 12, $center: false, $offset: 0, $last-column: true);
         padding-left: $column-gutter / 2;
         padding-right: $column-gutter / 2;
         position: absolute;
@@ -49,7 +50,6 @@
         top: 0;
         right: 0;
         bottom: 0;
-        left: 0;
         left: 50%;
         opacity: 0;
         @include transition(opacity 500ms ease-in-out 500ms);
@@ -90,7 +90,7 @@
     }
 
     @media #{$medium-up} {
-        font-size: 2rem;
+        font-size: 1.6rem;
         font-weight: 300;
         line-height: 1.2;
     }
@@ -193,11 +193,11 @@
     @include grid-column($columns: 12, $center: true);
 
     @media #{$medium-up} {
-        @include grid-column($columns: 10, $center: true);
+        @include grid-column($columns: 10, $center: false, $offset: 1);
     }
 
     @media #{$large-up} {
-        @include grid-column($columns: 8, $center: true);
+        @include grid-column($columns: 8, $center: false, $offset: 2);
     }
 
     dd {
@@ -363,11 +363,15 @@
     overflow: hidden;
 
     h1 {
-        font-family: $font-family-serif;
-        margin: $base-line-height-computed * 2 0 $base-line-height-computed;
+        font-family: $font-family-sans;
+        font-size: $h5-font-size;
+        margin: 0 0 $base-line-height-computed;
         color: #111;
-        font-weight: 700;
-        text-transform: lowercase;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 1.35;
+        border-bottom: 2px solid #222;
+        padding-bottom: $base-line-height-computed/2;
     }
 }
 
@@ -378,5 +382,13 @@
         color: #fff;
         border-color: fade-out(#fff, 0.5);
         text-transform: lowercase;
+    }
+}
+
+.post .row {
+    padding: $base-line-height-computed * 2 0;
+
+    .touch & {
+        padding: 55px 0;
     }
 }

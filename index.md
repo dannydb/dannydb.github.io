@@ -119,7 +119,7 @@ _Songs We Love_
 
 **Award of Excellence**  
 Features Single-Story Project  
-_NPR’s Book Concierge: Our Guide To 2013′s Great Reads_
+_NPR’s Book Concierge: Our Guide To 2013’s Great Reads_
 
 **Award of Excellence**  
 Data project (Features)  
@@ -143,7 +143,7 @@ _StateImpact Pennsylvania_
 ### 2011 EPpy Awards
 
 **Best Community Service on a Media-Affiliated Website with 1 million unique monthly visitors and over**  
-_“Do No Harm: Hospital Care in Las Vegas”_
+_Do No Harm: Hospital Care in Las Vegas_
 
 **Best Business/Finance Website with 250,000 to 1 million unique monthly visitors**  
 _VegasInc, Greenspun Media Group_
@@ -151,24 +151,24 @@ _VegasInc, Greenspun Media Group_
 ### 2011 SND Best of Digital News Design
 
 **Award of Excellence**  
-_“Do No Harm: Hospital Care in Las Vegas”_
+_Do No Harm: Hospital Care in Las Vegas_
 
 ### Scripps Howard Awards
 
 **Investigative Reporting**  
-_“Do No Harm: Hospital Care in Las Vegas”_
+_Do No Harm: Hospital Care in Las Vegas_
 
 ### 2011 Goldsmith Awards
 
 **Goldsmith Prize for Investigative Reporting**  
-_“Do No Harm: Hospital Care in Las Vegas”_
+_Do No Harm: Hospital Care in Las Vegas_
 
 ### 2011 Alfred I. duPont-Columbia University Awards
 
 **Silver Baton**  
-_“Bottoming Out: Gambling Addiction in Las Vegas”_
+_Bottoming Out: Gambling Addiction in Las Vegas_
 
-### 2010 Online Journalism Awards
+### 2010 Online Journalism Awards – Online Journalism Awards
 
 **General Excellence in Online Journalism, Medium Site**  
 _The Las Vegas Sun and the Greenspun Media Group_
@@ -179,7 +179,7 @@ _The Las Vegas Sun and the Greenspun Media Group_
 _LasVegasSun.com_
 
 **Best Web Special Feature – Enterprise, Less than 1 million monthly visitors**  
-_“Bottoming Out: Gambling Addiction in Las Vegas”_
+_Bottoming Out: Gambling Addiction in Las Vegas_
 
 ### 2005 Online News Association – Online Journalism Awards
 
