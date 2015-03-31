@@ -168,7 +168,7 @@ _Do No Harm: Hospital Care in Las Vegas_
 **Silver Baton**  
 _Bottoming Out: Gambling Addiction in Las Vegas_
 
-### 2010 Online Journalism Awards
+### 2010 Online Journalism Awards – Online Journalism Awards
 
 **General Excellence in Online Journalism, Medium Site**  
 _The Las Vegas Sun and the Greenspun Media Group_
