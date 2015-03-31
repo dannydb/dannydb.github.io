@@ -1,5 +1,6 @@
 .work {
 	background:  #f5f5f5;
+	max-width: 100%;
 
 	.page-header {
 		margin-bottom: 0;
@@ -9,10 +10,6 @@
 		// max-width: 100%;
 		// padding: 0 0.625rem;
 		overflow: hidden;
-	}
-
-	.projects {
-
 	}
 
 	.project {
@@ -25,10 +22,10 @@
 			display: block;
 			background-size: cover;
 			background-position: top left;
-			padding-bottom: 100%;
+			// padding-bottom: 100%;
+			padding-bottom: 56.25%;
 
 			.touch & {
-				padding-bottom: 56.25%;
 				margin-bottom: $base-line-height-computed/2;
 			}
 

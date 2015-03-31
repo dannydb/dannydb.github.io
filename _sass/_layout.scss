@@ -50,7 +50,6 @@
         top: 0;
         right: 0;
         bottom: 0;
-        left: 0;
         left: 50%;
         opacity: 0;
         @include transition(opacity 500ms ease-in-out 500ms);
@@ -364,14 +363,14 @@
     overflow: hidden;
 
     h1 {
-        font-family: $font-family-serif;
-        font-size: $h3-font-size;
+        font-family: $font-family-sans;
+        font-size: $h5-font-size;
         margin: 0 0 $base-line-height-computed;
         color: #111;
-        font-weight: 700;
-        text-transform: lowercase;
+        font-weight: 400;
+        text-transform: uppercase;
         line-height: 1.35;
-        border-bottom: 3px solid #222;
+        border-bottom: 2px solid #222;
         padding-bottom: $base-line-height-computed/2;
     }
 }
@@ -386,7 +385,7 @@
     }
 }
 
-.post.row {
+.post .row {
     padding: $base-line-height-computed * 2 0;
 
     .touch & {

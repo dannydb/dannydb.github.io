@@ -88,42 +88,44 @@ layout: default
     </div>
 </div>
 
-<!-- <a name="/work"></a> -->
-<div id="work" data-magellan-destination="work" class="post row work">
-    <header class="page-header">
-        <h1 class="post-title">Projects</h1>
-    </header>
+<div id="work" class="post work">
+    <div class="row">
+        <header class="page-header">
+            <h1 class="post-title">Projects</h1>
+        </header>
 
-    <div class="wrapper">
-        <article class="post-content">
-            <ul class="projects small-block-grid-1 medium-block-grid-2 large-block-grid-3">
-                {% for project in site.data.projects reversed %}
-                <li class="project">
-                    <a href="{{ project.url }}" class="project-poster lazy" data-original="/img/{{ project.image }}" style="background-image: url('/img/transparent.png');"></a>
-                    <div class="project-info">
-                        <h2>
-                            <a class="post-link" href="{{ project.url }}">{{ project.name }}</a>
-                        </h2>
-                        <p class="post-meta">{{ project.date }} {% if project.repo %} (<a href="http://github.com/{{ project.repo }}">Repo</a>) {% endif %}</a></p>
-                        <p class="project-description">{{ project.description }}</p>
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-        </article>
+        <div class="wrapper">
+            <article class="post-content">
+                <ul class="projects small-block-grid-1 medium-block-grid-2">
+                    {% for project in site.data.projects reversed %}
+                    <li class="project">
+                        <a href="{{ project.url }}" class="project-poster lazy" data-original="/img/{{ project.image }}" style="background-image: url('/img/transparent.png');"></a>
+                        <div class="project-info">
+                            <h2>
+                                <a class="post-link" href="{{ project.url }}">{{ project.name }}</a>
+                            </h2>
+                            <p class="post-meta">{{ project.date }} {% if project.repo %} (<a href="http://github.com/{{ project.repo }}">Repo</a>) {% endif %}</a></p>
+                            <p class="project-description">{{ project.description }}</p>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </article>
+        </div>
     </div>
 </div>
 
-<!-- <a name="/resume"></a> -->
-<div id="resume" data-magellan-destination="resume" class="post row resume">
-    <header class="page-header">
-        <h1 class="post-title">Résumé</h1>
-    </header>
+<div id="resume" class="post resume">
+    <div class="row">
+        <header class="page-header">
+            <h1 class="post-title">Résumé</h1>
+        </header>
 
-    <div class="wrapper">
-        <article class="post-content">
-            {{ content }}
-        </article>
+        <div class="wrapper">
+            <article class="post-content">
+                {{ content }}
+            </article>
+        </div>
     </div>
 </div>
 
