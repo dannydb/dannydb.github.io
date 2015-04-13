@@ -1,8 +1,23 @@
 // Global jQuery references
-$projectLinks = null;
+var $window = null;
+var $projectLinks = null;
+var $navLinks = null;
+var $subNav = null;
+var $titleCard = null;
+var $projectsWrapper = null;
+var $resumeWrapper = null;
+
+// Initialize router
+var router = Router(routes);
+router.init();
 
 var onDocumentLoad = function() {
+    $window = $(window);
     $projectLinks = $('.project a');
+    $navLinks = $('.nav a');
+    $titleCard = $('.title-card');
+    $subNav = $('.sub-nav');
+    $projectsWrapper = $('.work');
 
     $('.portrait').addClass('is-visible');
     $(".lazy").lazyload({
@@ -10,21 +25,22 @@ var onDocumentLoad = function() {
     });
 
     $projectLinks.on('click', onProjectLinkClick);
-    $(window).on('resize', sizeTitleCard);
-    $('.nav a').on('click', onNavClick);
-    // $(document).foundation();
+    $window.on('resize', sizeTitleCard);
+    $navLinks.on('click', onNavClick);
+
+    sizeTitleCard();
 }
 
 var sizeTitleCard = function() {
-    var windowHeight = $(window).height();
-    $('.title-card').css({
+    var windowHeight = $window.height();
+    $titleCard.css({
         height: windowHeight
     });
 }
 
 var scrollToElement = function($el) {
-    var subNavHeight = $('.sub-nav').height();
-    var rowMargin = parseInt($('.work').css('margin-top'));
+    var subNavHeight = $subNav.height();
+    var rowMargin = parseInt($projectsWrapper.css('margin-top'));
 
     $('html, body').animate({
         scrollTop: $el.offset().top
@@ -33,15 +49,15 @@ var scrollToElement = function($el) {
 }
 
 var onHomeRoute = function() {
-    scrollToElement($('#intro'));
+    scrollToElement($titleCard);
 }
 
 var onWorkRoute = function() {
-    scrollToElement($('#work'));
+    scrollToElement($projectsWrapper);
 }
 
 var onResumeRoute = function() {
-    scrollToElement($('#resume'));
+    scrollToElement($resumeWrapper);
 }
 
 var onNavClick = function(e) {
@@ -93,8 +109,4 @@ var trackEvent = function(category, eventName, label, value, custom1, custom2) {
     _gaq.push(args);
 }
 
-var router = Router(routes);
-router.init();
-
 $(onDocumentLoad);
-sizeTitleCard();
