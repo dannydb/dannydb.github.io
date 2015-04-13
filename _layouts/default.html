@@ -14,67 +14,8 @@
         <!-- <script src="/js/foundation.js"></script>
         <script src="/js/foundation.magellan.js"></script> -->
         <script src="/js/director.min.js"></script>
+        <script src="/js/app.js"></script>
 
-        <script>
-            var sizeTitleCard = function() {
-                var windowHeight = $(window).height();
-                $('.title-card').css({
-                    height: windowHeight
-                });
-            }
-
-            var scrollToElement = function($el) {
-                var subNavHeight = $('.sub-nav').height();
-                var rowMargin = parseInt($('.work').css('margin-top'));
-
-                $('html, body').animate({
-                    scrollTop: $el.offset().top
-                }, 500);
-                return false;
-            }
-
-            var onDocumentLoad = function() {
-                $('.portrait').addClass('is-visible');
-                $(".lazy").lazyload({
-                      effect : "fadeIn"
-                });
-            }
-
-            var onHomeRoute = function() {
-                scrollToElement($('#intro'));
-            }
-
-            var onWorkRoute = function() {
-                scrollToElement($('#work'));
-            }
-
-            var onResumeRoute = function() {
-                scrollToElement($('#resume'));
-            }
-
-            var onNavClick = function(e) {
-                e.preventDefault();
-                var route = $(this).attr('href').split('/')[1];
-                scrollToElement($($(this).data('target')));
-                router.setRoute(route);
-            }
-
-            var routes = {
-                '/intro': onHomeRoute,
-                '/work': onWorkRoute,
-                '/resume': onResumeRoute
-            };
-
-            $(window).on('resize', sizeTitleCard);
-            $('.nav a').on('click', onNavClick);
-            // $(document).foundation();
-            var router = Router(routes);
-            router.init();
-
-            $(onDocumentLoad);
-            sizeTitleCard();
-
-        </script>
         <script>
 
             var _gaq = _gaq || [];
