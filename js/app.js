@@ -32,7 +32,8 @@ var onDocumentLoad = function() {
 }
 
 var sizeTitleCard = function() {
-    var windowHeight = $window.height();
+    var windowHeight = Modernizr.touch ? window.innerHeight || $window.height() : $window.height();
+
     $titleCard.css({
         height: windowHeight
     });
