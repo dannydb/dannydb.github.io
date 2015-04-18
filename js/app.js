@@ -7,6 +7,8 @@ var $titleCard = null;
 var $projectsWrapper = null;
 var $resumeWrapper = null;
 
+var deploymentTarget = (window.location.href).match('dannydebelius.com') ? 'prod' : 'dev';
+
 // Initialize router
 var router = Router(routes);
 router.init();
