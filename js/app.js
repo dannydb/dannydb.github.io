@@ -91,8 +91,6 @@ var trackEvent = function(category, eventName, label, value) {
 
     if (label) {
         args['eventLabel'] = label;
-    } else if (value || custom1 || custom2) {
-        args['eventLabel'] = '';
     }
 
     if (value) {
