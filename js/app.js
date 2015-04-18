@@ -81,8 +81,6 @@ var routes = {
 };
 
 var trackEvent = function(category, eventName, label, value) {
-    var args = ['send', 'event', category];
-
     var args = {
       'hitType': 'event',
       'eventCategory': category,
