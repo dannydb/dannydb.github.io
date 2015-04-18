@@ -80,34 +80,26 @@ var routes = {
     '/resume': onResumeRoute
 };
 
-var trackEvent = function(category, eventName, label, value, custom1, custom2) {
-    var args = ['_trackEvent', category];
+var trackEvent = function(category, eventName, label, value) {
+    var args = ['send', 'event', category];
 
-    args.push(eventName);
+    var args = {
+      'hitType': 'event',
+      'eventCategory': category,
+      'eventAction': eventName
+    }
 
     if (label) {
-        args.push(label);
+        args['eventLabel'] = label;
     } else if (value || custom1 || custom2) {
-        args.push('');
+        args['eventLabel'] = '';
     }
 
     if (value) {
-        args.push(value);
-    } else if (custom1 || custom2) {
-        args.push(0);
+        args['eventValue'] = value;
     }
 
-    if (custom1) {
-        args.push(custom1)
-    } else if (custom2) {
-        args.push('');
-    }
-
-    if (custom2) {
-        args.push(custom2);
-    }
-
-    _gaq.push(args);
+    ga('send', args);
 }
 
 $(onDocumentLoad);
