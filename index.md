@@ -86,7 +86,7 @@ _Pre-Journalism, 2000 — 2001_
 **Fluent** in HTML, CSS, Javascript, LESS, SASS, Git, Sketch, Adobe Creative
 Suite, Adobe Lightroom, Sublime Text
 
-**Proficient** in Python, Node, D3, Wordpress, SVN, Vim, bash
+**Proficient** in Python, Node, D3, Wordpress, SVN, Vim, Bash
 
 ## Awards
 
