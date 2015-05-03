@@ -104,7 +104,7 @@ layout: default
                             <h2>
                                 <a class="post-link" href="{{ project.url }}">{{ project.name }}</a>
                             </h2>
-                            <p class="post-meta">{{ project.date }} {% if project.repo %} (<a href="http://github.com/{{ project.repo }}">Repo</a>) {% endif %}</a></p>
+                            {% if project.repo %}<p class="project-meta"><a class="repo-link" href="http://github.com/{{ project.repo }}">View On GitHub</a></p>{% endif %}
                             <p class="project-description">{{ project.description }}</p>
                         </div>
                     </li>
@@ -128,5 +128,3 @@ layout: default
         </div>
     </div>
 </div>
-
-
