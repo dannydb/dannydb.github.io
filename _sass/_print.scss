@@ -1,0 +1,36 @@
+@media print {
+    [data-magellan-expedition],
+    [data-magellan-expedition-clone],
+    #work,
+    .portrait,
+    .title-card-nav,
+    .social-media-list,
+    .intro,
+    .page-header {
+        display: none;
+    }
+
+    #intro {
+        height: auto !important;
+    }
+
+    .logo {
+        font-size: 3.5rem;
+    }
+
+    .title-card .wrapper {
+    }
+
+    a:link:after,
+    a:visited:after {
+        content: "" !important;
+    }
+
+    .intro a {
+        font-weight: normal;
+    }
+
+    #resume .row {
+        padding-top: 0;
+    }
+}

@@ -12,9 +12,11 @@
 }
 
 .title-card .wrapper {
-    margin-top: 0;
-    width: auto;
-    padding: 0;
+    @media screen {
+        margin-top: 0;
+        width: auto;
+        padding: 0;
+    }
 
     @media #{$medium-up} {
         @include grid-column($columns: 12, $center: false, $offset: 0, $last-column: true);

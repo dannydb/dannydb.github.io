@@ -12,10 +12,10 @@ body_class: homepage
 _NPR, Washington, DC._  
 _April 2013 — Present_
 
-*   Designed visuals and interactions for Visuals team projects
-*   Authored HTML, LESS, CSS, Javascript and Python to realize project designs in code
-*   Tested interfaces to improve user experience
-*   Contributed to the NPR Visuals app template, dailygraphics rig and other open-source tools used in our project stack
+*   Designs visuals and interactions for Visuals team projects
+*   Authors HTML, LESS, CSS, Javascript and Python to realize project designs in code
+*   Tests interfaces to improve user experience
+*   Contributes to the NPR Visuals app template, dailygraphics rig and other open-source tools used in our project stack
 
 ### Senior User Experience Designer
 
@@ -33,10 +33,6 @@ _February 2009 — April 2011_
 
 *   Oversaw visual design and front-end development of LasVegasSun.com
 and its mobile counterpart
-*   Created alternative Javascript-driven interfaces for key Flash-based
-site elements to improve iPad user experience
-*   Collaborated with back-end development group to create new site
-functionality and improve site performance
 *   Contributed to visual design and front-end development of
 LasVegasWeekly.com and 702.tv
 *   Developed user interface prototype for Las Vegas Weekly’s iPhone app
@@ -46,13 +42,10 @@ LasVegasWeekly.com and 702.tv
 _Rocky Mountain News, Denver, Colo._  
 _March 2008 — February 2009_
 
-*   Established design standards for interactive department and
-documented best-practices for news editors and interactive producers
-*   Advised senior Rocky management on best online design practices
-*   Collaborated with corporate user experience group to make site
-improvements based on usability testing
 *   Led front-end development in Django, ColdFusion and Movable Type
 environments
+*   Collaborated with corporate user experience group to make site
+improvements based on usability testing
 *   Refined site markup and information architecture to reach search
 engine optimization goals
 
@@ -190,7 +183,7 @@ _Mission to Mante_
 
 _References available on request._
 
-<!-- 
+<!--
 
 [Download print version](http://dl.dropbox.com/u/5245886/debelius-resume-web.pdf)
  -->
