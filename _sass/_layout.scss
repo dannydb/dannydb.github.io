@@ -374,6 +374,10 @@
         line-height: 1.35;
         border-bottom: 2px solid #222;
         padding-bottom: $base-line-height-computed/2;
+
+        // @media #{$large-up} {
+        //     border-bottom: none;
+        // }
     }
 }
 
@@ -392,5 +396,20 @@
 
     .touch & {
         padding: 55px 0;
+    }
+}
+
+footer .wrapper {
+    color: #999;
+    font-size: $base-font-size * 0.8;
+
+    @include grid-column($columns: 12, $center: true);
+
+    @media #{$medium-up} {
+        @include grid-column($columns: 10, $center: false, $offset: 1, $last-column: true);
+    }
+
+    @media #{$large-up} {
+        @include grid-column($columns: 8, $center: false, $offset: 2);
     }
 }
