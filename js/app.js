@@ -9,6 +9,7 @@ var $resumeWrapper = null;
 
 // State
 var windowWidth = null;
+var trackedMarks = [];
 
 // Global
 var IS_TOUCH = Modernizr.touch;
