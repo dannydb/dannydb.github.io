@@ -7,6 +7,9 @@ var $titleCard = null;
 var $projectsWrapper = null;
 var $resumeWrapper = null;
 
+// State
+var windowWidth = null;
+
 var deploymentTarget = (window.location.href).match('dannydebelius.com') ? 'prod' : 'dev';
 
 // Initialize router
@@ -35,10 +38,23 @@ var onDocumentLoad = function() {
 
 var sizeTitleCard = function() {
     var windowHeight = Modernizr.touch ? window.innerHeight || $window.height() : $window.height();
+    var newWindowWidth = $window.width();
+
+    if (Modernizr.mq('(max-width: 667px) and (orientation: landscape)')) {
+        windowWidth = newWindowWidth;
+        $titleCard.css('height','auto');
+        return;
+    }
+
+    if (windowWidth === null || windowWidth === newWindowWidth) {
+        return;
+    }
 
     $titleCard.css({
         height: windowHeight
     });
+
+    windowWidth = newWindowWidth;
 }
 
 var scrollToElement = function($el) {
