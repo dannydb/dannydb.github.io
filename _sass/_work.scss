@@ -21,6 +21,7 @@
 			background-size: cover;
 			background-position: top left;
 			padding-bottom: 56.25%;
+			background-repeat: no-repeat;
 
 			.touch & {
 				margin-bottom: $base-line-height-computed/2;
