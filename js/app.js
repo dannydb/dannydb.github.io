@@ -29,12 +29,14 @@ var onDocumentLoad = function() {
 
     $('.portrait').addClass('is-visible');
     $(".lazy").lazyload({
-          effect : "fadeIn"
+        threshold : 300,
+        effect : "fadeIn"
     });
 
     $projectLinks.on('click', onProjectLinkClick);
     $window.on('resize', sizeTitleCard);
     $navLinks.on('click', onNavClick);
+    $(document).on('scroll', onDocScroll);
 
     sizeTitleCard();
 }
@@ -118,5 +120,30 @@ var trackEvent = function(category, eventName, label, value) {
 
     ga('send', args);
 }
+
+/*
+ * Track scroll depth for completion events.
+ *
+ * After: https://github.com/robflaherty/jquery-scrolldepth
+ */
+var onDocScroll = _.throttle(function(e) {
+    var docHeight = $(document).height();
+    var winHeight = window.innerHeight ? window.innerHeight : $window.height();
+    var scrollDistance = $(document).scrollTop() + winHeight;
+
+    var marks = {
+        '25%' : parseInt(docHeight * 0.25),
+        '50%' : parseInt(docHeight * 0.50),
+        '75%' : parseInt(docHeight * 0.75),
+        '100%': docHeight - 5
+    };
+
+    $.each(marks, function(mark, px) {
+        if (trackedMarks.indexOf(mark) == -1 && scrollDistance >= px) {
+            trackEvent('completion', 'scroll', mark);
+            trackedMarks.push(mark);
+        }
+    });
+}, 500);
 
 $(onDocumentLoad);
