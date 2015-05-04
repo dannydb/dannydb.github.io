@@ -10,6 +10,9 @@ var $resumeWrapper = null;
 // State
 var windowWidth = null;
 
+// Global
+var IS_TOUCH = Modernizr.touch;
+
 var deploymentTarget = (window.location.href).match('dannydebelius.com') ? 'prod' : 'dev';
 
 // Initialize router
@@ -46,7 +49,7 @@ var sizeTitleCard = function() {
         return;
     }
 
-    if (windowWidth === null || windowWidth === newWindowWidth) {
+    if (IS_TOUCH && (windowWidth === null || windowWidth === newWindowWidth)) {
         return;
     }
 
