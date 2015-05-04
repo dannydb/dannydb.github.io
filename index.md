@@ -57,6 +57,8 @@ _May 2006 — March 2008_
 *   Oversaw design, front-end development, and content management of
 WildwoodGuitars.com
 
+<div class="page-break"></div>
+
 ### Photo Intern
 
 _The Daily Camera, Boulder, Colo._  
@@ -107,6 +109,7 @@ _Election Party!_
 Features, Single Subject  
 _Songs We Love_
 
+<div class="page-break"></div>
 
 ### 2014 SND Best of Digital Design
 
@@ -155,6 +158,8 @@ _Do No Harm: Hospital Care in Las Vegas_
 
 **Goldsmith Prize for Investigative Reporting**  
 _Do No Harm: Hospital Care in Las Vegas_
+
+<div class="page-break"></div>
 
 ### 2011 Alfred I. duPont-Columbia University Awards
 
