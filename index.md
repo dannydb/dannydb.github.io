@@ -7,10 +7,15 @@ body_class: homepage
 
 ## Experience
 
+### Graphics/Multimedia Editor
+
+_The New York Times, New York, New York_  
+_July 2015 — Present_
+
 ### News Application Designer
 
-_NPR, Washington, DC._  
-_April 2013 — Present_
+_NPR, Washington, D.C._  
+_April 2013 — June 2015
 
 *   Designs visuals and interactions for Visuals team projects
 *   Authors HTML, LESS, CSS, Javascript and Python to realize project designs in code
@@ -19,7 +24,7 @@ _April 2013 — Present_
 
 ### Senior User Experience Designer
 
-_NPR, Washington, DC._  
+_NPR, Washington, D.C._  
 _April 2011 — April 2013_
 
 *   Led user interface design for StateImpact editorial platform and news applications
