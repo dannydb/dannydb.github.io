@@ -9,7 +9,7 @@ body_class: homepage
 
 ### Graphics/Multimedia Editor
 
-_The New York Times, New York, New York_  
+_The New York Times, New York, N.Y._  
 _July 2015 — Present_
 
 ### News Application Designer
