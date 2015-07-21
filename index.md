@@ -15,7 +15,7 @@ _July 2015 — Present_
 ### News Application Designer
 
 _NPR, Washington, D.C._  
-_April 2013 — June 2015
+_April 2013 — June 2015_
 
 *   Designs visuals and interactions for Visuals team projects
 *   Authors HTML, LESS, CSS, Javascript and Python to realize project designs in code
