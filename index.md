@@ -12,15 +12,18 @@ body_class: homepage
 _The New York Times, New York, N.Y._  
 _July 2015 — Present_
 
+*   Design and develop enterprise and multimedia story presentation
+*   Contribute to internal tools used by Digital News Design and the Graphics desk
+
 ### News Application Designer
 
 _NPR, Washington, D.C._  
 _April 2013 — June 2015_
 
-*   Designs visuals and interactions for Visuals team projects
-*   Authors HTML, LESS, CSS, Javascript and Python to realize project designs in code
-*   Tests interfaces to improve user experience
-*   Contributes to the NPR Visuals app template, dailygraphics rig and other open-source tools used in our project stack
+*   Designed visuals and interactions for Visuals team projects
+*   Authored HTML, LESS, CSS, Javascript and Python to realize project designs in code
+*   Tested interfaces to improve user experience
+*   Contributed to the NPR Visuals app template, dailygraphics rig and other open-source tools used in our project stack
 
 ### Senior User Experience Designer
 
@@ -91,7 +94,7 @@ _Pre-Journalism, 2000 — 2001_
 ## Skills
 
 **Fluent** in HTML, CSS, Javascript, LESS, SASS, Git, Sketch, Adobe Creative
-Suite, Adobe Lightroom, Sublime Text
+Suite, Adobe Lightroom, Sublime Text, Atom
 
 **Proficient** in Python, Node, D3, Wordpress, SVN, Vim, Bash
 

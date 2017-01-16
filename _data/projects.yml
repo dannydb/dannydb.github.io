@@ -61,3 +61,31 @@
   name: "The Austin 100"
   repo: "nprapps/austin"
   url: "http://apps.npr.org/austin/"
+
+-
+  date: "January 19, 2016"
+  description: "Americans share their hopes, fears and frustrations in interviews from the campaign trail."
+  image: of-the-people-16x9.png
+  name: "Of the People"
+  url: "http://www.nytimes.com/interactive/projects/portraits/voters-of-the-people"
+
+-
+  date: "May 4, 2016"
+  description: "In a five-part series, we hear from prisoners on death row who wrestle with questions about justice, guilt, punishment and atonement. They have been convicted of horrible crimes. But this series isn't about the crime; it’s about what happens after."
+  image: inside-death-row-16x9.png
+  name: "Inside Death Row"
+  url: "http://www.nytimes.com/interactive/2016/05/04/opinion/the-last-phone-call.html"
+
+-
+  date: "May 1, 2016"
+  description: "A withered person with a scrambled mind, memories sealed away: That is the familiar face of Alzheimer’s. But there is also the waiting period, which Geri Taylor has been navigating with prudence, grace and hope."
+  image: alzheimers-16x9.png
+  name: "Fraying at the Edges"
+  url: "http://www.nytimes.com/interactive/2016/05/01/nyregion/living-with-alzheimers.html"
+
+-
+  date: "Fall 2016"
+  description: "The New York Times’ platform for publishing live chat-style commentary during live events."
+  image: live-chat-16x9.png
+  name: "Live Chat Platform"
+  url: "http://www.nytimes.com/interactive/2016/10/19/us/elections/donald-trump-hillary-clinton-debate.html"
