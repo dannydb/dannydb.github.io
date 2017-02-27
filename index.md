@@ -103,11 +103,11 @@ Suite, Adobe Lightroom, Sublime Text, Atom
 ### 2016 SND Best of Digital Design
 
 **Silver Medal**  
-Features: Single-subject project
+Features: Single-subject project  
 _The New York Times Magazine: The New York Issue_
 
 **Award of Excellence**  
-Features: Coverage
+Features: Coverage  
 _Inside Death Row_
 
 ### 2014 SND Best of Digital Design
