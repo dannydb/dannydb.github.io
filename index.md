@@ -100,7 +100,17 @@ Suite, Adobe Lightroom, Sublime Text, Atom
 
 ## Awards
 
-### 2015 SND Best of Digital Design
+### 2016 SND Best of Digital Design
+
+**Silver Medal**  
+Features: Single-subject project
+_The New York Times Magazine: The New York Issue_
+
+**Award of Excellence**  
+Features: Coverage
+_Inside Death Row_
+
+### 2014 SND Best of Digital Design
 
 **Gold Medal**  
 Personal Portfolio
@@ -119,7 +129,7 @@ _Songs We Love_
 
 <div class="page-break"></div>
 
-### 2014 SND Best of Digital Design
+### 2013 SND Best of Digital Design
 
 **Award of Excellence**  
 Features Single-Story Project  
@@ -133,7 +143,7 @@ _Playgrounds For Everyone_
 Features Single-Story Project  
 _Previously, On ‘Arrested Development’_
 
-### 2013 SND Best of Digital Design
+### 2012 SND Best of Digital Design
 **Award of Excellence**  
 _Dried Out: Confronting the Texas Drought_
 
