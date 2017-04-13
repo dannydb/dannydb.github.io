@@ -2,7 +2,7 @@
 title: Danny DeBelius
 email: danny.debelius@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Danny DeBelius is a designer and developer at NPR.
+  Danny DeBelius is an editor, designer and developer at The New York Times.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.dannydebelius.com" # the base hostname & protocol for your site
 instagram_username: dannydb
