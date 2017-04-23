@@ -39,7 +39,7 @@
   image: election_3x2_sm_g.jpg
   name: "NPR Election Party"
   repo: "nprapps/elections14"
-  url: "http://elections.npr.org"
+  url: "http://elections2014.npr.org"
 -
   date: "December 10, 2014"
   description: "Put on your headphones and listen to more than 300 of NPR Music's favorite songs from 2014."
