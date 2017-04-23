@@ -73,7 +73,8 @@ h2 {
     text-decoration: none;
   }
 
-  .no-touch & .nav li a:hover {
+  .no-touch & .nav li a:hover,
+  .no-touch & p a:hover {
     opacity: 1;
     border-color: #fff;
   }
