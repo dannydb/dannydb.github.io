@@ -61,6 +61,7 @@ h2 {
 
   p {
     font-size: 24px;
+    line-height: 1.3;
     font-weight: 200;
   }
 
@@ -71,9 +72,11 @@ h2 {
     border-bottom: 2px solid #444;
     text-decoration: none;
 
-    &:hover {
-      opacity: 1;
-      border-color: #fff;
+    .no-touch & {
+      &:hover {
+        opacity: 1;
+        border-color: #fff;
+      }
     }
   }
 
@@ -122,6 +125,10 @@ h2 {
   .social a {
     color: #666;
     font-size: 24px;
+  }
+
+  .no-touch .social a:hover {
+    color: #fff;
   }
 }
 
