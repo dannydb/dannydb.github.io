@@ -11,11 +11,39 @@ flickr_username:
 twitter_username: dannydb
 github_username:  dannydb
 linkedin_username: dannydebelius
-lastfm_username: 
+lastfm_username:
 
 # Build settings
 markdown: kramdown
 
+assets:
+  compress:
+    css: false
+    js: false
+
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+
+  autowrite: true
+  prefix: "/assets"
+  digest: true
+
+  assets:
+    - "*.png"
+    - "bundle.css"
+
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+    - _assets/img
+    - _assets/js
+
 # Gems
 gems:
   - jekyll-sitemap
+  - jekyll-assets

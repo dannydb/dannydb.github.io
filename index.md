@@ -5,9 +5,9 @@ body_class: homepage
 
 
 
-## Experience
+### Experience
 
-### Graphics/Multimedia Editor
+#### Graphics/Multimedia Editor
 
 _The New York Times, New York, N.Y._  
 _July 2015 — Present_
@@ -15,7 +15,7 @@ _July 2015 — Present_
 *   Design and develop enterprise and multimedia story presentation
 *   Contribute to internal tools used by Digital News Design and the Graphics desk
 
-### News Application Designer
+#### News Application Designer
 
 _NPR, Washington, D.C._  
 _April 2013 — June 2015_
@@ -25,7 +25,7 @@ _April 2013 — June 2015_
 *   Tested interfaces to improve user experience
 *   Contributed to the NPR Visuals app template, dailygraphics rig and other open-source tools used in our project stack
 
-### Senior User Experience Designer
+#### Senior User Experience Designer
 
 _NPR, Washington, D.C._  
 _April 2011 — April 2013_
@@ -34,7 +34,7 @@ _April 2011 — April 2013_
 *   Contributed to the front-end development of StateImpact’s Wordpress theme and special projects
 *   Collaborated with NPR user testing group to improve user experience
 
-### Senior Web Designer
+#### Senior Web Designer
 
 _Las Vegas Sun, Henderson, Nev._  
 _February 2009 — April 2011_
@@ -45,7 +45,7 @@ and its mobile counterpart
 LasVegasWeekly.com and 702.tv
 *   Developed user interface prototype for Las Vegas Weekly’s iPhone app
 
-### Design Producer
+#### Design Producer
 
 _Rocky Mountain News, Denver, Colo._  
 _March 2008 — February 2009_
@@ -57,7 +57,7 @@ improvements based on usability testing
 *   Refined site markup and information architecture to reach search
 engine optimization goals
 
-### Site Manager
+#### Site Manager
 
 _Wildwood Guitars, Louisville, Colo._  
 _May 2006 — March 2008_
@@ -67,7 +67,7 @@ WildwoodGuitars.com
 
 <div class="page-break"></div>
 
-### Photo Intern
+#### Photo Intern
 
 _The Daily Camera, Boulder, Colo._  
 _May 2006 — August 2006_
@@ -75,7 +75,7 @@ _May 2006 — August 2006_
 *   Shot photo assignments on deadline, edited images in digital
 darkroom for print reproduction
 
-### Online Content Producer
+#### Online Content Producer
 
 _The Daily Camera, Boulder, Colo._  
 _January 2004 — May 2006_
@@ -83,128 +83,124 @@ _January 2004 — May 2006_
 *   Created web components for special reports with Flash graphics,
 audio, video and standards-based HTML/CSS design
 
-## Education
+### Education
 
-**University of Colorado at Boulder**  
+#### University of Colorado at Boulder
 _News-Editorial Journalism, 2001 — 2003_
 
-**Colorado State University**  
+#### Colorado State University
 _Pre-Journalism, 2000 — 2001_
 
-## Skills
+### Skills
 
 **Fluent** in HTML, CSS, Javascript, LESS, SASS, Git, Sketch, Adobe Creative
 Suite, Adobe Lightroom, Sublime Text, Atom
 
 **Proficient** in Python, Node, D3, Wordpress, SVN, Vim, Bash
 
-## Awards
+### Awards
 
-### 2016 SND Best of Digital Design
+##### 2016 SND Best of Digital Design
 
-**Silver Medal**  
-Features: Single-subject project  
+Silver Medal  
+_Features: Single-subject project_  
 _The New York Times Magazine: The New York Issue_
 
-**Award of Excellence**  
-Features: Coverage  
+Award of Excellence  
+_Features: Coverage_  
 _Inside Death Row_
 
-### 2014 SND Best of Digital Design
+##### 2014 SND Best of Digital Design
 
-**Gold Medal**  
-Personal Portfolio
+Gold Medal  
+_Personal Portfolio_
 
-**Silver Medal**  
-Organization Portfolio  
+Silver Medal  
+_Organization Portfolio_  
 _NPR Visuals_
 
-**Silver Medal**  
-Special Events  
+Silver Medal  
+_Special Events_  
 _Election Party!_
 
-**Silver Medal**  
-Features, Single Subject  
+Silver Medal  
+_Features, Single Subject_  
 _Songs We Love_
 
 <div class="page-break"></div>
 
-### 2013 SND Best of Digital Design
+##### 2013 SND Best of Digital Design
 
-**Award of Excellence**  
-Features Single-Story Project  
+Award of Excellence  
+_Features Single-Story Project_  
 _NPR’s Book Concierge: Our Guide To 2013’s Great Reads_
 
-**Award of Excellence**  
-Data project (Features)  
+Award of Excellence  
+_Data project (Features)_  
 _Playgrounds For Everyone_
 
-**Award of Excellence**  
-Features Single-Story Project  
+Award of Excellence  
+_Features Single-Story Project_  
 _Previously, On ‘Arrested Development’_
 
-### 2012 SND Best of Digital Design
-**Award of Excellence**  
+##### 2012 SND Best of Digital Design
+Award of Excellence  
 _Dried Out: Confronting the Texas Drought_
 
-**Award of Excellence**  
+Award of Excellence  
 _Getting By, Getting Ahead: Voices of the New Hampshire Economy_
 
-### 2012 Alfred I. duPont-Columbia University Awards
-**Silver Baton**  
+##### 2012 Alfred I. duPont-Columbia University Awards
+Silver Baton  
 _StateImpact Pennsylvania_
 
-### 2011 EPpy Awards
+##### 2011 EPpy Awards
 
-**Best Community Service on a Media-Affiliated Website with 1 million unique monthly visitors and over**  
+Best Community Service on a Media-Affiliated Website with 1 million unique monthly visitors and over  
 _Do No Harm: Hospital Care in Las Vegas_
 
-**Best Business/Finance Website with 250,000 to 1 million unique monthly visitors**  
+Best Business/Finance Website with 250,000 to 1 million unique monthly visitors  
 _VegasInc, Greenspun Media Group_
 
-### 2011 SND Best of Digital News Design
+##### 2011 SND Best of Digital News Design
 
-**Award of Excellence**  
+Award of Excellence  
 _Do No Harm: Hospital Care in Las Vegas_
 
-### Scripps Howard Awards
+##### Scripps Howard Awards
 
-**Investigative Reporting**  
+Investigative Reporting  
 _Do No Harm: Hospital Care in Las Vegas_
 
-### 2011 Goldsmith Awards
+##### 2011 Goldsmith Awards
 
-**Goldsmith Prize for Investigative Reporting**  
+Goldsmith Prize for Investigative Reporting  
 _Do No Harm: Hospital Care in Las Vegas_
 
 <div class="page-break"></div>
 
-### 2011 Alfred I. duPont-Columbia University Awards
+##### 2011 Alfred I. duPont-Columbia University Awards
 
-**Silver Baton**  
+Silver Baton  
 _Bottoming Out: Gambling Addiction in Las Vegas_
 
-### 2010 Online Journalism Awards – Online Journalism Awards
+##### 2010 Online Journalism Awards – Online Journalism Awards
 
-**General Excellence in Online Journalism, Medium Site**  
+General Excellence in Online Journalism, Medium Site  
 _The Las Vegas Sun and the Greenspun Media Group_
 
-### 2010 EPpy Awards
+##### 2010 EPpy Awards
 
-**Best News Website - Less than 1 million monthly visitors**  
+Best News Website - Less than 1 million monthly visitors  
 _LasVegasSun.com_
 
-**Best Web Special Feature – Enterprise, Less than 1 million monthly visitors**  
+Best Web Special Feature – Enterprise, Less than 1 million monthly visitors  
 _Bottoming Out: Gambling Addiction in Las Vegas_
 
-### 2005 Online News Association – Online Journalism Awards
+##### 2005 Online News Association – Online Journalism Awards
 
-**Outstanding Use of Multiple Media, First Place**  
+Outstanding Use of Multiple Media, First Place  
 _Mission to Mante_
-
-## References
-
-_References available on request._
 
 <!--
 

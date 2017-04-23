@@ -7,12 +7,12 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="msvalidate.01" content="958E44AEEBCFA279ED6727EE856C6D3F" />
 
-    <script src="//use.typekit.net/vfb2hic.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
+    <script src="https://use.typekit.net/pda4fri.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    {% css main %}
     <link rel="icon" href="{{ "/img/favicon.png" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <script src="/js/modernizr.min.js"></script>
+    {% js modernizr.min %}
 </head>
