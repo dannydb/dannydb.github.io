@@ -43,7 +43,7 @@ namespace :blog do
       system "git remote add origin #{origin}"
 
       # Push the files to the gh-pages branch, forcing an overwrite.
-      system "git push origin dev:refs/heads/master --force"
+      system "git push origin master --force"
     end
 
     # Done.
