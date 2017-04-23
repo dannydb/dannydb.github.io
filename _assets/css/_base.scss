@@ -216,7 +216,7 @@ footer {
 
     h3 a {
       display: block;
-      font-size: 16px;
+      font-size: 15px;
       color: #000;
 
       @include media('>phone') {
@@ -227,7 +227,7 @@ footer {
     .repo-link,
     .repo-link:visited {
       color: #999;
-      font-size: 14px;
+      font-size: 15px;
     }
 
     .repo-link:hover {
