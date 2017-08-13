@@ -1,6 +1,9 @@
 ---
 layout: home
 body_class: homepage
+title: Danny DeBelius
+description: > # this means to ignore newlines until "baseurl:"
+ I‘m an editor, designer and developer at <a href="https://nytimes.com">The New York Times</a>.
 ---
 
 

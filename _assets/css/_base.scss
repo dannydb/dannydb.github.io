@@ -216,29 +216,32 @@ footer {
   }
 
   .work .project-info {
+    position: relative;
+
+    .project-date {
+      color: #999;
+      font-size: 14px;
+      padding-top: 3px;
+      margin-bottom: 0.5rem;
+    }
+
     h3 {
+      font-size: 16px;
+      font-weight: 400;
       margin-bottom: 0;
     }
 
-    h3 a {
+    .project-header a {
       display: block;
-      font-size: 15px;
       color: #000;
-
-      @include media('>phone') {
-        font-size: 16px;
-      }
     }
 
-    .repo-link,
-    .repo-link:visited {
+    .project-meta .repo-link,
+    .project-meta .repo-link:visited {
+      display: inline;
       color: #999;
-      font-size: 15px;
-    }
-
-    .repo-link:hover {
-      color: #000;
-      text-decoration: none;
+      font-size: 14px;
+      border-bottom: 1px solid #ccc;
     }
   }
 }
@@ -251,7 +254,7 @@ footer {
         opacity: 1;
       }
 
-      h3 a,
+      .project-header a,
       .project-meta {
         transform: translate(0, 0);
         opacity: 1;
@@ -281,11 +284,10 @@ footer {
     position: absolute;
     opacity: 0;
     z-index: 100;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 1rem;
+    top: 1rem;
+    left: 1rem;
+    bottom: 1rem;
+    right: 1rem;
 
     h3 {
       font-size: 18px;
@@ -293,22 +295,30 @@ footer {
       padding: 0;
     }
 
-    h3 a {
+    .project-date {
+      font-size: 14px;
+      color: rgba(255,255,255,0.7);
+    }
+
+    .project-header > a {
       display: block;
       color: #fff;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .project-header > a {
       position: absolute;
       top: 0;
       right: 0;
       bottom: 0;
       left: 0;
-      padding: 1.5rem;
       transition: transform 300ms ease-in-out 10ms, opacity 250ms ease-in-out 100ms;
       transform: translate(-10%, 0);
       opacity: 0;
-
-      &:hover {
-        text-decoration: none;
-      }
+      padding: 0.5rem;
     }
 
     .project-meta {
@@ -320,18 +330,29 @@ footer {
       bottom: 0;
       left: 0;
       color: #fff;
-      padding: 1.5rem;
+      padding: 0.5rem;
       z-index: 200;
       text-align: right;
       margin-bottom: 0;
     }
 
+    .project-date a,
+    .project-date a:visited,
     .repo-link,
     .repo-link:visited {
-      color: rgba(255,255,255,0.8);
-      font-size: 16px;
+      color: rgba(255,255,255,0.7);
+      font-size: 14px;
     }
 
+    .repo-link {
+      border-bottom: 2px solid #666;
+
+      &:hover {
+        border-bottom: 2px solid #fff;
+      }
+    }
+
+    .project-date a:hover,
     .repo-link:hover {
       color: rgba(255,255,255,1);
       text-decoration: none;

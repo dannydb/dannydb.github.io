@@ -3,8 +3,8 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
+    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_html }}{% endif %}">
     <meta name="msvalidate.01" content="958E44AEEBCFA279ED6727EE856C6D3F" />
 
     <script src="https://use.typekit.net/pda4fri.js"></script>

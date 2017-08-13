@@ -4,8 +4,8 @@ layout: default
 
 <div class="header">
   <div class="wrapper">
-    <h2 class="logo">{{ site.title }}</h2>
-    <p class="intro">I'm an editor, designer and developer at <a href="http://nytimes.com">The New York Times</a>, formerly of NPR, the Las Vegas Sun and the Rocky Mountain News.</p>
+    <h2 class="logo">{% if page.title %}{{ page.title }}{% endif %}</h2>
+    <p class="intro">{% if page.description %}{{ page.description }}{% endif %}</p>
     <ul class="nav">
       <li><a data-target="#work" href="#/work">Work</a></li>
       <li><a data-target="#resume" href="#/resume">Résumé</a></li>
@@ -54,11 +54,13 @@ layout: default
       <li class="project">
         <a href="{{ project.url }}" class="project-poster lazy" data-original="/img/{{ project.image }}" style="background-image: url('/img/transparent.png');"></a>
         <div class="project-info">
-          <h3>
-            <a class="post-link" href="{{ project.url }}">{{ project.name }}</a>
-          </h3>
-          {% if project.repo %}<p class="project-meta"><a class="repo-link" href="http://github.com/{{ project.repo }}">View On GitHub</a></p>{% endif %}
-          <p class="project-description">{{ project.description }}</p>
+          <div class="project-header">
+            <a class="post-link" href="{{ project.url }}">
+              <h3>{{ project.name }}</h3>
+              <p class="project-date">{{ project.date }}</p>
+            </a>
+            {% if project.repo %}<p class="project-meta"><a class="repo-link" href="http://github.com/{{ project.repo }}">View on GitHub</a></p>{% endif %}
+          </div>
         </div>
       </li>
       {% endfor %}
