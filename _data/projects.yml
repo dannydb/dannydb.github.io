@@ -1,84 +1,89 @@
 ---
--
-  date: "July 22, 2012"
-  description: "The Marcellus Shale has been underneath Pennsylvania for centuries, but the extraction of natural gas began only recently. The “fracking” boom is changing the landscape of northeastern and southwestern Pennsylvania. Use this tool to learn which operators are drilling, and where. Find active wells in your county or municipality — and see whether the drillers have been cited for violating state environmental regulations."
+- date: July 22, 2012
+  description: The Marcellus Shale has been underneath Pennsylvania for centuries,
+    but the extraction of natural gas began only recently. The “fracking” boom is
+    changing the landscape of northeastern and southwestern Pennsylvania. Use this
+    tool to learn which operators are drilling, and where. Find active wells in your
+    county or municipality — and see whether the drillers have been cited for violating
+    state environmental regulations.
   image: shaleplay_3x2_sm_g.jpg
-  name: "Shale Play"
-  url: "http://stateimpact.npr.org/pennsylvania/drilling/"
--
-  date: "May 18, 2013"
-  description: "NPR's guide to the running gags from the show."
+  name: Shale Play
+  url: http://stateimpact.npr.org/pennsylvania/drilling/
+- date: May 18, 2013
+  description: NPR's guide to the running gags from the show.
   image: arresteddevelopment_3x2_sm_g.jpg
-  name: "Previously, On Arrested Development"
-  repo: "nprapps/arrested-development"
-  url: "http://apps.npr.org/arrested-development/"
--
-  date: "November 1, 2013"
-  description: "Companies and other organizations with an interest in Missouri state government hire lobbyists to influence policy in Jefferson City. State law requires lobbyists to disclose how much they spend in the process, listing which officials received benefits, such as free meals, professional sports tickets, trips and other gifts. Try searching for your legislators below, then read our stories on the issue. You can also learn more about how we built this site or download all the data."
+  name: Previously, On Arrested Development
+  repo: nprapps/arrested-development
+  url: http://apps.npr.org/arrested-development/
+- date: November 1, 2013
+  description: Companies and other organizations with an interest in Missouri state
+    government hire lobbyists to influence policy in Jefferson City. State law requires
+    lobbyists to disclose how much they spend in the process, listing which officials
+    received benefits, such as free meals, professional sports tickets, trips and
+    other gifts. Try searching for your legislators below, then read our stories on
+    the issue. You can also learn more about how we built this site or download all
+    the data.
   image: lobbying_3x2_sm_g.jpg
-  name: "Lobbying Missouri"
-  repo: "nprapps/stl-lobbying"
-  url: "http://www.lobbyingmissouri.org/"
--
-  date: "May 19, 2014"
-  description: "We’ve hand-picked over 300 addresses going back to 1774. Search by name, school, date or theme, and see our blog n.pr/ed for more."
+  name: Lobbying Missouri
+  repo: nprapps/stl-lobbying
+  url: http://www.lobbyingmissouri.org/
+- date: May 19, 2014
+  description: We’ve hand-picked over 300 addresses going back to 1774. Search by
+    name, school, date or theme, and see our blog n.pr/ed for more.
   image: commencement_3x2_sm_g.jpg
-  name: "The Best Commencement Speeches, Ever"
-  repo: "nprapps/commencement"
-  url: "http://apps.npr.org/commencement/"
--
-  date: "July 2, 2014"
-  description: "How it was made and what it means today"
+  name: The Best Commencement Speeches, Ever
+  repo: nprapps/commencement
+  url: http://apps.npr.org/commencement/
+- date: July 2, 2014
+  description: How it was made and what it means today
   image: civil_rights_3x2_sm_g.jpg
-  name: "Behind The Civil Rights Act"
-  repo: "nprapps/civilrights"
-  url: "http://apps.npr.org/behind-the-civil-rights-act/"
--
-  date: "November 4, 2014"
-  description: "Stream election results, data and news, NPR-style. Optimized for your TV, Chromecast or coffee table. #nprparty"
+  name: Behind The Civil Rights Act
+  repo: nprapps/civilrights
+  url: http://apps.npr.org/behind-the-civil-rights-act/
+- date: November 4, 2014
+  description: 'Stream election results, data and news, NPR-style. Optimized for your
+    TV, Chromecast or coffee table. #nprparty'
   image: election_3x2_sm_g.jpg
-  name: "NPR Election Party"
-  repo: "nprapps/elections14"
-  url: "http://elections2014.npr.org"
--
-  date: "December 10, 2014"
-  description: "Put on your headphones and listen to more than 300 of NPR Music's favorite songs from 2014."
+  name: NPR Election Party
+  repo: nprapps/elections14
+  url: http://elections2014.npr.org
+- date: December 10, 2014
+  description: Put on your headphones and listen to more than 300 of NPR Music's favorite
+    songs from 2014.
   image: songs_3x2_sm_g.jpg
-  name: "Songs We Love 2014"
-  repo: "nprapps/bestsongs14"
-  url: "http://apps.npr.org/best-songs-2014/"
--
-  date: "March 3, 2015"
-  description: "What to listen to at SXSW 2015"
+  name: Songs We Love 2014
+  repo: nprapps/bestsongs14
+  url: http://apps.npr.org/best-songs-2014/
+- date: March 3, 2015
+  description: What to listen to at SXSW 2015
   image: austin_3x2_sm_g.jpg
-  name: "The Austin 100"
-  repo: "nprapps/austin"
-  url: "http://apps.npr.org/austin/"
-
--
-  date: "January 19, 2016"
-  description: "Americans share their hopes, fears and frustrations in interviews from the campaign trail."
-  image: of_the_people_3x2_sm_g.jpg
-  name: "Of the People"
-  url: "http://www.nytimes.com/interactive/projects/portraits/voters-of-the-people"
-
--
-  date: "May 4, 2016"
-  description: "In a five-part series, we hear from prisoners on death row who wrestle with questions about justice, guilt, punishment and atonement. They have been convicted of horrible crimes. But this series isn't about the crime; it’s about what happens after."
-  image: inside_death_row_3x2_sm_g.jpg
-  name: "Inside Death Row"
-  url: "http://www.nytimes.com/interactive/2016/05/04/opinion/the-last-phone-call.html"
-
--
-  date: "May 1, 2016"
-  description: "A withered person with a scrambled mind, memories sealed away: That is the familiar face of Alzheimer’s. But there is also the waiting period, which Geri Taylor has been navigating with prudence, grace and hope."
-  image: alzheimers_3x2_sm_g.jpg
-  name: "Fraying at the Edges"
-  url: "http://www.nytimes.com/interactive/2016/05/01/nyregion/living-with-alzheimers.html"
-
--
-  date: "Fall 2016"
-  description: "The New York Times’ platform for publishing live chat-style commentary during live events."
+  name: The Austin 100
+  repo: nprapps/austin
+  url: http://apps.npr.org/austin/
+- date: Fall 2016
+  description: The New York Times’ platform for publishing live chat-style commentary
+    during live events.
   image: live_chat_3x2_sm_g.jpg
-  name: "Live Chat Platform"
-  url: "http://www.nytimes.com/interactive/2016/10/19/us/elections/donald-trump-hillary-clinton-debate.html"
+  name: Live Chat Platform
+  url: http://www.nytimes.com/interactive/2016/10/19/us/elections/donald-trump-hillary-clinton-debate.html
+- date: May 4, 2016
+  description: In a five-part series, we hear from prisoners on death row who wrestle
+    with questions about justice, guilt, punishment and atonement. They have been
+    convicted of horrible crimes. But this series isn't about the crime; it’s about
+    what happens after.
+  image: inside_death_row_3x2_sm_g.jpg
+  name: Inside Death Row
+  url: http://www.nytimes.com/interactive/2016/05/04/opinion/the-last-phone-call.html
+- date: January 19, 2016
+  description: Americans share their hopes, fears and frustrations in interviews from
+    the campaign trail.
+  image: of_the_people_3x2_sm_g.jpg
+  name: Of the People
+  url: http://www.nytimes.com/interactive/projects/portraits/voters-of-the-people
+- date: May 1, 2016
+  description: 'A withered person with a scrambled mind, memories sealed away: That
+    is the familiar face of Alzheimer’s. But there is also the waiting period, which
+    Geri Taylor has been navigating with prudence, grace and hope.'
+  image: alzheimers_3x2_sm_g.jpg
+  name: Fraying at the Edges
+  url: http://www.nytimes.com/interactive/2016/05/01/nyregion/living-with-alzheimers.html
