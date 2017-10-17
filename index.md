@@ -1,9 +1,9 @@
 ---
-layout: home
 body_class: homepage
+description: I‘m a designer and developer at <a href="https://nytimes.com">The New
+  York Times</a>.
+layout: home
 title: Danny DeBelius
-description: I‘m an editor, designer and developer at <a href="https://nytimes.com">The
-  New York Times</a>.
 ---
 
 
