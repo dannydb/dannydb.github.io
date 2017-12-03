@@ -37,21 +37,9 @@ h2 {
   flex: 1;
   position: relative;
   // background: #111;
-  background: #23074d;
-  background: -webkit-linear-gradient(to bottom, #23074d, #cc5333);
-  background: linear-gradient(to bottom, #23074d, #cc5333);
-background: #43C6AC;
-
-/* fallback for old browsers */
-
-background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);
-
-/* Chrome 10-25, Safari 5.1-6 */
-
-background: linear-gradient(to bottom, #191654, #43C6AC);
-
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #43C6AC;
+  background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);
+  background: linear-gradient(to bottom, #191654, #43C6AC);
   color: #fff;
   padding: 20px;
   -webkit-font-smoothing: antialiased;
@@ -87,7 +75,7 @@ background: linear-gradient(to bottom, #191654, #43C6AC);
   p {
     // font-size: 24px;
     line-height: 1.3;
-    font-weight: 200;
+    font-weight: 400;
   }
 
   p a,
@@ -269,9 +257,9 @@ footer {
     .project-meta .repo-link,
     .project-meta .repo-link:visited {
       display: inline;
-      color: #999;
+      color: rgba(255,255,255,0.7);
       font-size: 14px;
-      border-bottom: 1px solid #ccc;
+      border-bottom: 1px solid rgba(255,255,255,0.5);
     }
   }
 }
@@ -304,7 +292,8 @@ footer {
       right: 0;
       bottom: 0;
       left: 0;
-      background: fade-out(#000, 0.1);
+      background: fade-out(#43C6AC, 0.1);
+      background-blend-mode: burn;
       opacity:0;
     }
   }
@@ -376,7 +365,7 @@ footer {
     }
 
     .repo-link {
-      border-bottom: 2px solid #666;
+      border-bottom: 2px solid rgba(255,255,255,0.5);
 
       &:hover {
         border-bottom: 2px solid #fff;
