@@ -82,7 +82,7 @@ h2 {
   .nav li a {
     color: #fff;
     opacity: 0.7;
-    border-bottom: 2px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
     text-decoration: none;
   }
 
@@ -365,10 +365,10 @@ footer {
     }
 
     .repo-link {
-      border-bottom: 2px solid rgba(255,255,255,0.5);
+      border-bottom: 1px solid rgba(255,255,255,0.5);
 
       &:hover {
-        border-bottom: 2px solid #fff;
+        border-bottom: 1px solid #fff;
       }
     }
 
