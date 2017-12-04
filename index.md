@@ -89,10 +89,10 @@ audio, video and standards-based HTML/CSS design
 ### Education
 
 #### University of Colorado at Boulder
-_News-Editorial Journalism, 2001 — 2003_
+_Bachelor of Science, News-Editorial Journalism_
 
 #### Colorado State University
-_Pre-Journalism, 2000 — 2001_
+_Pre-Journalism_
 
 ### Skills
 
