@@ -14,5 +14,15 @@
     <link rel="icon" href="{{ "/img/favicon.png" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+    <script>
+    function getRandomInt(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+    }
+    var themes = ['theme-dawn','theme-blue-lagoon','theme-celestial'];
+    var theme = themes[getRandomInt(0,3)];
+    document.querySelector('html').classList.add(theme);
+    </script>
     {% js modernizr.min %}
 </head>

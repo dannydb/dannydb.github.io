@@ -1,3 +1,5 @@
+
+
 // Global
 // -----------------------------------------------------------------------------
 * {
@@ -37,9 +39,25 @@ h2 {
   flex: 1;
   position: relative;
   // background: #111;
-  background: #43C6AC;
-  background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);
-  background: linear-gradient(to bottom, #191654, #43C6AC);
+
+  .theme-blue-lagoon & {
+    background: #43C6AC;
+    background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);
+    background: linear-gradient(to bottom, #191654, #43C6AC);
+  }
+
+  .theme-dawn & {
+    background: #FFA17F;
+    background: -webkit-linear-gradient(to bottom, #00223E, #FFA17F);
+    background: linear-gradient(to bottom, #00223E, #FFA17F);
+  }
+
+  .theme-celestial & {
+    background: #C33764;
+    background: -webkit-linear-gradient(to bottom, #1D2671, #C33764);
+    background: linear-gradient(to bottom, #1D2671, #C33764);
+  }
+
   color: #fff;
   padding: 20px;
   -webkit-font-smoothing: antialiased;
@@ -292,9 +310,21 @@ footer {
       right: 0;
       bottom: 0;
       left: 0;
-      background: fade-out(#43C6AC, 0.1);
-      background-blend-mode: burn;
+      background: fade-out(#000, 0.1);
+      background-blend-mode: luminosity;
       opacity:0;
+
+      @at-root .theme-blue-lagoon#{&} {
+        background: fade-out(#43C6AC, 0.1);
+      }
+
+      @at-root .theme-dawn#{&} {
+        background: fade-out(#FFA17F, 0.1);
+      }
+
+      @at-root .theme-celestial#{&} {
+        background: fade-out(#C33764, 0.1);
+      }
     }
   }
 
