@@ -205,9 +205,8 @@ footer {
   .project {
     position: relative;
     overflow: hidden;
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 0;
+    width: calc(50% - 20px);
+    margin: 10px;
   }
 
   .project a:link,
@@ -290,6 +289,10 @@ footer {
         opacity: 1;
       }
 
+      .project-poster {
+        filter: blur(5px);
+      }
+
       .project-header a,
       .project-meta {
         transform: translate(0, 0);
@@ -300,6 +303,7 @@ footer {
 
   .work .project-poster {
     transition: all 200ms ease-in-out;
+    filter: blur(0);
 
     &:before {
       transition: opacity 200ms ease-in-out;
@@ -310,21 +314,21 @@ footer {
       right: 0;
       bottom: 0;
       left: 0;
-      background: fade-out(#000, 0.1);
-      background-blend-mode: luminosity;
+      background: fade-out(#000, 0.5);
+      // background-blend-mode: luminosity;
       opacity:0;
 
-      @at-root .theme-blue-lagoon#{&} {
-        background: fade-out(#43C6AC, 0.1);
-      }
+      // @at-root .theme-blue-lagoon#{&} {
+      //   background: fade-out(#43C6AC, 0.3);
+      // }
 
-      @at-root .theme-dawn#{&} {
-        background: fade-out(#FFA17F, 0.1);
-      }
+      // @at-root .theme-dawn#{&} {
+      //   background: fade-out(#FFA17F, 0.3);
+      // }
 
-      @at-root .theme-celestial#{&} {
-        background: fade-out(#C33764, 0.1);
-      }
+      // @at-root .theme-celestial#{&} {
+      //   background: fade-out(#C33764, 0.3);
+      // }
     }
   }
 
