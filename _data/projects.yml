@@ -60,12 +60,6 @@
   name: The Austin 100
   repo: nprapps/austin
   url: http://apps.npr.org/austin/
-- date: Fall 2016
-  description: The New York Times’ platform for publishing live chat-style commentary
-    during live events.
-  image: live_chat_3x2_sm_g.jpg
-  name: Live Chat Platform
-  url: http://www.nytimes.com/interactive/2016/10/19/us/elections/donald-trump-hillary-clinton-debate.html
 - date: May 4, 2016
   description: In a five-part series, we hear from prisoners on death row who wrestle
     with questions about justice, guilt, punishment and atonement. They have been
@@ -87,3 +81,10 @@
   image: alzheimers_3x2_sm_g.jpg
   name: Fraying at the Edges
   url: http://www.nytimes.com/interactive/2016/05/01/nyregion/living-with-alzheimers.html
+- date: December 5, 2017
+  description: 'The producer Harvey Weinstein relied on powerful
+relationships across industries to provide him with cover
+as accusations of sexual misconduct piled up for decades.'
+  image: harvey-3x2_sm.png
+  name: Weinstein’s Complicity Machine
+  url: https://www.nytimes.com/interactive/2017/12/05/us/harvey-weinstein-complicity.html
