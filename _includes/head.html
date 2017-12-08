@@ -11,7 +11,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     {% css main %}
-    <link rel="icon" href="{{ "/img/favicon.png" | prepend: site.baseurl }}">
+    <link id="favicon" rel="icon" href="{{ "/img/favicon-theme-dusk.png" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <script>
@@ -20,9 +20,17 @@
       max = Math.floor(max);
       return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
     }
+    var themeIndex = getRandomInt(0,3)
     var themes = ['theme-dawn','theme-blue-lagoon','theme-celestial'];
-    var theme = themes[getRandomInt(0,3)];
+    var theme = themes[themeIndex];
+    var favicons = [
+      '{{ "/img/favicon-theme-dawn.png" | prepend: site.baseurl }}',
+      '{{ "/img/favicon-theme-blue-lagoon.png" | prepend: site.baseurl }}',
+      '{{ "/img/favicon-theme-celestial.png" | prepend: site.baseurl }}'
+    ]
+    var favicon = favicons[themeIndex];
     document.querySelector('html').classList.add(theme);
+    document.getElementById('favicon').href = favicon;
     </script>
     {% js modernizr.min %}
 </head>
