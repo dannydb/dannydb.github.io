@@ -1,7 +1,7 @@
 ---
-pages:
-- index.md
+label: Homepage
 hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
@@ -23,3 +23,5 @@ fields:
   name: description
   config:
     wysiwyg: ''
+pages:
+- index.md

@@ -1,9 +1,11 @@
 ---
 body_class: homepage
-description: I‘m a designer and developer at <a href="https://nytimes.com">The New
-  York Times</a>.
+description: 'I‘m a designer and developer at <a href="https://planning.center">Planning
+  Center</a>. Previously, I was a designer, developer and editor at The New York Times
+  and NPR. '
 layout: home
 title: Danny DeBelius
+
 ---
 
 
