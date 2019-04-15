@@ -7,68 +7,72 @@ layout: home
 title: Danny DeBelius
 
 ---
-
-
-
 ### Experience
+
+#### Senior Front-End Designer
+
+_Planning Center, Carlsbad, CA_  
+_July 2018 — Present_
+
+* Design and develop the Church Center — a congregant-facing React Native app for Android and iOS
 
 #### Graphics/Multimedia Editor
 
 _The New York Times, New York, N.Y._  
-_July 2015 — Present_
+_July 2015 — July 2018_
 
-*   Design and develop enterprise and multimedia story presentation
-*   Contribute to internal tools used by Digital News Design and the Graphics desk
+* Design and develop enterprise and multimedia story presentation
+* Contribute to internal tools used by Digital News Design and the Graphics desk
 
 #### News Application Designer
 
 _NPR, Washington, D.C._  
 _April 2013 — June 2015_
 
-*   Designed visuals and interactions for Visuals team projects
-*   Authored HTML, LESS, CSS, Javascript and Python to realize project designs in code
-*   Tested interfaces to improve user experience
-*   Contributed to the NPR Visuals app template, dailygraphics rig and other open-source tools used in our project stack
+* Designed visuals and interactions for Visuals team projects
+* Authored HTML, LESS, CSS, Javascript and Python to realize project designs in code
+* Tested interfaces to improve user experience
+* Contributed to the NPR Visuals app template, dailygraphics rig and other open-source tools used in our project stack
 
 #### Senior User Experience Designer
 
 _NPR, Washington, D.C._  
 _April 2011 — April 2013_
 
-*   Led user interface design for StateImpact editorial platform and news applications
-*   Contributed to the front-end development of StateImpact’s Wordpress theme and special projects
-*   Collaborated with NPR user testing group to improve user experience
+* Led user interface design for StateImpact editorial platform and news applications
+* Contributed to the front-end development of StateImpact’s Wordpress theme and special projects
+* Collaborated with NPR user testing group to improve user experience
 
 #### Senior Web Designer
 
 _Las Vegas Sun, Henderson, Nev._  
 _February 2009 — April 2011_
 
-*   Oversaw visual design and front-end development of LasVegasSun.com
-and its mobile counterpart
-*   Contributed to visual design and front-end development of
-LasVegasWeekly.com and 702.tv
-*   Developed user interface prototype for Las Vegas Weekly’s iPhone app
+* Oversaw visual design and front-end development of LasVegasSun.com
+  and its mobile counterpart
+* Contributed to visual design and front-end development of
+  LasVegasWeekly.com and 702.tv
+* Developed user interface prototype for Las Vegas Weekly’s iPhone app
 
 #### Design Producer
 
 _Rocky Mountain News, Denver, Colo._  
 _March 2008 — February 2009_
 
-*   Led front-end development in Django, ColdFusion and Movable Type
-environments
-*   Collaborated with corporate user experience group to make site
-improvements based on usability testing
-*   Refined site markup and information architecture to reach search
-engine optimization goals
+* Led front-end development in Django, ColdFusion and Movable Type
+  environments
+* Collaborated with corporate user experience group to make site
+  improvements based on usability testing
+* Refined site markup and information architecture to reach search
+  engine optimization goals
 
 #### Site Manager
 
 _Wildwood Guitars, Louisville, Colo._  
 _May 2006 — March 2008_
 
-*   Oversaw design, front-end development, and content management of
-WildwoodGuitars.com
+* Oversaw design, front-end development, and content management of
+  WildwoodGuitars.com
 
 <div class="page-break"></div>
 
@@ -77,33 +81,40 @@ WildwoodGuitars.com
 _The Daily Camera, Boulder, Colo._  
 _May 2006 — August 2006_
 
-*   Shot photo assignments on deadline, edited images in digital
-darkroom for print reproduction
+* Shot photo assignments on deadline, edited images in digital
+  darkroom for print reproduction
 
 #### Online Content Producer
 
 _The Daily Camera, Boulder, Colo._  
 _January 2004 — May 2006_
 
-*   Created web components for special reports with Flash graphics,
-audio, video and standards-based HTML/CSS design
+* Created web components for special reports with Flash graphics,
+  audio, video and standards-based HTML/CSS design
 
 ### Education
 
 #### University of Colorado at Boulder
+
 _Bachelor of Science, News-Editorial Journalism_
 
 #### Colorado State University
+
 _Pre-Journalism_
 
 ### Skills
 
-**Fluent** in HTML, CSS, Javascript, LESS, SASS, Git, Sketch, Adobe Creative
-Suite, Adobe Lightroom, Sublime Text, Atom
+**Fluent** in Javascript, React, React Native, Node, HTML, CSS, LESS, SASS, Git, Vim, Sketch, Figma, Adobe Creative Suite, Adobe Lightroom, Sublime Text, Atom
 
-**Proficient** in Python, Node, D3, Wordpress, SVN, Vim, Bash
+**Proficient** in Python, D3, Wordpress, SVN, Bash
 
 ### Awards
+
+##### 2018 SND Best of Digital Design
+
+Silver Medal  
+Story Page Design: News Features or Planned Coverage  
+_The New York Times: Kidnapped as Schoolgirls_
 
 ##### 2016 SND Best of Digital Design
 
@@ -149,6 +160,7 @@ _Features Single-Story Project_
 _Previously, On ‘Arrested Development’_
 
 ##### 2012 SND Best of Digital Design
+
 Award of Excellence  
 _Dried Out: Confronting the Texas Drought_
 
@@ -156,6 +168,7 @@ Award of Excellence
 _Getting By, Getting Ahead: Voices of the New Hampshire Economy_
 
 ##### 2012 Alfred I. duPont-Columbia University Awards
+
 Silver Baton  
 _StateImpact Pennsylvania_
 
@@ -210,4 +223,4 @@ _Mission to Mante_
 <!--
 
 [Download print version](http://dl.dropbox.com/u/5245886/debelius-resume-web.pdf)
- -->
+\-->
