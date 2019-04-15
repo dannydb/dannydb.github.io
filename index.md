@@ -113,7 +113,7 @@ _Pre-Journalism_
 ##### 2018 SND Best of Digital Design
 
 Silver Medal  
-Story Page Design: News Features or Planned Coverage  
+_Story Page Design: News Features or Planned Coverage_  
 _The New York Times: Kidnapped as Schoolgirls_
 
 ##### 2016 SND Best of Digital Design
