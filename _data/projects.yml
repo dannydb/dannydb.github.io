@@ -15,38 +15,38 @@
   name: Previously, On Arrested Development
   repo: nprapps/arrested-development
   url: http://apps.npr.org/arrested-development/
-- date: November 1, 2013
-  description: Companies and other organizations with an interest in Missouri state
-    government hire lobbyists to influence policy in Jefferson City. State law requires
-    lobbyists to disclose how much they spend in the process, listing which officials
-    received benefits, such as free meals, professional sports tickets, trips and
-    other gifts. Try searching for your legislators below, then read our stories on
-    the issue. You can also learn more about how we built this site or download all
-    the data.
-  image: lobbying_3x2_sm_g.jpg
-  name: Lobbying Missouri
-  repo: nprapps/stl-lobbying
-  url: http://www.lobbyingmissouri.org/
-- date: May 19, 2014
-  description: We’ve hand-picked over 300 addresses going back to 1774. Search by
-    name, school, date or theme, and see our blog n.pr/ed for more.
-  image: commencement_3x2_sm_g.jpg
-  name: The Best Commencement Speeches, Ever
-  repo: nprapps/commencement
-  url: http://apps.npr.org/commencement/
+# - date: November 1, 2013
+#   description: Companies and other organizations with an interest in Missouri state
+#     government hire lobbyists to influence policy in Jefferson City. State law requires
+#     lobbyists to disclose how much they spend in the process, listing which officials
+#     received benefits, such as free meals, professional sports tickets, trips and
+#     other gifts. Try searching for your legislators below, then read our stories on
+#     the issue. You can also learn more about how we built this site or download all
+#     the data.
+#   image: lobbying_3x2_sm_g.jpg
+#   name: Lobbying Missouri
+#   repo: nprapps/stl-lobbying
+#   url: http://www.lobbyingmissouri.org/
+# - date: May 19, 2014
+#   description: We’ve hand-picked over 300 addresses going back to 1774. Search by
+#     name, school, date or theme, and see our blog n.pr/ed for more.
+#   image: commencement_3x2_sm_g.jpg
+#   name: The Best Commencement Speeches, Ever
+#   repo: nprapps/commencement
+#   url: http://apps.npr.org/commencement/
 - date: July 2, 2014
   description: How it was made and what it means today
   image: civil_rights_3x2_sm_g.jpg
   name: Behind The Civil Rights Act
   repo: nprapps/civilrights
   url: http://apps.npr.org/behind-the-civil-rights-act/
-- date: November 4, 2014
-  description: 'Stream election results, data and news, NPR-style. Optimized for your
-    TV, Chromecast or coffee table. #nprparty'
-  image: election_3x2_sm_g.jpg
-  name: NPR Election Party
-  repo: nprapps/elections14
-  url: http://elections2014.npr.org
+# - date: November 4, 2014
+#   description: 'Stream election results, data and news, NPR-style. Optimized for your
+#     TV, Chromecast or coffee table. #nprparty'
+#   image: election_3x2_sm_g.jpg
+#   name: NPR Election Party
+#   repo: nprapps/elections14
+#   url: http://elections2014.npr.org
 - date: December 10, 2014
   description: Put on your headphones and listen to more than 300 of NPR Music's favorite
     songs from 2014.
@@ -88,3 +88,19 @@ as accusations of sexual misconduct piled up for decades.'
   image: harvey-3x2_sm.png
   name: Weinstein’s Complicity Machine
   url: https://www.nytimes.com/interactive/2017/12/05/us/harvey-weinstein-complicity.html
+- date: January 1, 2018
+  description: 'Everyone wants to be popular online. Some even pay for it. Inside social media’s black market.'
+  image: follower_factory.png
+  name: The Follower Factory
+  url: https://www.nytimes.com/interactive/2018/01/27/technology/social-media-bots.html
+- date: April 11, 2018
+  description: 'The New York Times met and photographed dozens of the students abducted by Boko Haram. Now at a university, they say they are the lucky ones. But their celebrity has a price.'
+  image: boko.png
+  name: 'Kidnapped as Schoolgirls by Boko Haram: Here They Are Now'
+  url: https://www.nytimes.com/interactive/2018/04/11/world/africa/nigeria-boko-haram-girls.html
+- date: October 2, 2018
+  description: 'The president has long sold himself as a self-made billionaire, but a Times investigation found that he received at least $413 million in today’s dollars from his father’s real estate empire, much of it through tax dodges in the 1990s.'
+  image: taxes.png
+  name: 'Trump Engaged in Suspect Tax Schemes as He Reaped Riches From His Father'
+  url: https://www.nytimes.com/interactive/2018/10/02/us/politics/donald-trump-tax-schemes-fred-trump.html
+   
