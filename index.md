@@ -104,7 +104,7 @@ _Pre-Journalism_
 
 ### Skills
 
-**Fluent** in Javascript, React, React Native, Node, HTML, CSS, LESS, SASS, Git, Visual Studio Code, Vim, Sketch, Figma, Adobe Creative Suite, Adobe Lightroom, Sublime Text, Atom
+**Fluent** in Javascript, React, React Native, Node, HTML, CSS, LESS, SASS, Git, Visual Studio Code, Vim, Sketch, Figma, Adobe Creative Suite, Adobe Lightroom
 
 **Proficient** in Python, D3, Wordpress, SVN, Bash
 
