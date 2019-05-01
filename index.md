@@ -21,8 +21,8 @@ _July 2018 — Present_
 _The New York Times, New York, N.Y._  
 _July 2015 — July 2018_
 
-* Design and develop enterprise and multimedia story presentation
-* Contribute to internal tools used by Digital News Design and the Graphics desk
+* Designed and developed enterprise and multimedia story presentation
+* Contributed to internal tools used by Digital News Design and the Graphics desk
 
 #### News Application Designer
 
