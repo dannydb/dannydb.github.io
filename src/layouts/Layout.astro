@@ -1,0 +1,48 @@
+---
+import '../styles/main.scss';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = 'Danny DeBelius', description = '' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <meta name="msvalidate.01" content="958E44AEEBCFA279ED6727EE856C6D3F" />
+
+    <script src="https://use.typekit.net/pda4fri.js"></script>
+    <script>try { (window as any).Typekit.load({ async: true }); } catch(e) {}</script>
+
+    <link id="favicon" rel="icon" href="/img/favicon-theme-dusk.png" />
+
+    <script>
+      function getRandomInt(min: number, max: number) {
+        return Math.floor(Math.random() * (max - min)) + min;
+      }
+      const themeIndex = getRandomInt(0, 3);
+      const themes = ['theme-dawn', 'theme-blue-lagoon', 'theme-celestial'];
+      const favicons = [
+        '/img/favicon-theme-dawn.png',
+        '/img/favicon-theme-blue-lagoon.png',
+        '/img/favicon-theme-celestial.png',
+      ];
+      document.documentElement.classList.add(themes[themeIndex]);
+      const faviconEl = document.getElementById('favicon') as HTMLLinkElement | null;
+      if (faviconEl) faviconEl.href = favicons[themeIndex];
+    </script>
+  </head>
+  <body>
+    <slot />
+
+    <script src="/scripts/app.js" is:inline></script>
+  </body>
+</html>

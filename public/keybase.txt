@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/dannydb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://dannydebelius.com
+  * I am dannydb (https://keybase.io/dannydb) on keybase.
+  * I have a public key with fingerprint D3FE A983 0152 C28D A6A4  CA87 234D 2E3D 8611 6734
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "d3fea9830152c28da6a4ca87234d2e3d86116734",
+            "host": "keybase.io",
+            "key_id": "234d2e3d86116734",
+            "kid": "01014d6a241ff0d1ddaf3311f28e614ee07d6857379aa34f93a9ec183bef8c1952090a",
+            "uid": "0f5c8d998259773549e4d080c318c900",
+            "username": "dannydb"
+        },
+        "revoke": {
+            "sig_ids": [
+                "bbfcd0b922ea027d6fd7c63a29f092882aaf51d07e9994ba5f6690b94dc4e8ff0f"
+            ]
+        },
+        "service": {
+            "hostname": "dannydebelius.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1427120169,
+    "expire_in": 157680000,
+    "prev": "df667d72dd00da4a4aa3877b2a1ebdb021809df4ba6c394da064c78219220d66",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMJkAnicbZJZaFVHHMZv9MblFiWCCNoqydAWJIuznGXmUmMUlFSECOISqlzmzMyJ
+x9yccz13SYMmLQT1wSCKiqQ1YHHBuDz4IFEruG9XERUXBNFiRUnRYmk0Ci6dE/VB
+6JmHw8x88/t/33/m7JjhsUTJqDnh3Vdzr14ouXzqt3xsYVn51FXACWQbSK4CzWro
+53p+kwozoefnQBJI4irOKIHIxAJTyS1uCE5tTAyJFZHUQsiyiQGqwPIgG53QGIdn
+VY0X6DU9SXlSr/6PvnloAyKIDGlxbCDXhRJJyV1CEHIxVRYylIK2tKhpE5txTgyX
+Ec6UQJQ4yqUCMRNDBrnG5T/gXFNQyRjFJrNtYhpMGRJSKAiigkEYCbMq9HmLitJx
+32+TDmivAqEqBM0qakDWa9KesyD5A3AcV0joMIwVh1gbcaUtLMIxcyHDlGLOXRNJ
+aCvGmOFw07UspvWGFIaiOo8Llmm2LljwxBA8atJnxZWj0l4+WyOCFu0tEwa5QARp
+vb08l8skI2e5tkwkb1VO6iMo5Xi+1NekDxRUmPUCHySRVoqcF5GRgW2EIbJYFVA/
+ZrxQpbxIYdoWhfqLyqhC5EDbtaWNpYRQckMPTqhtO5gj5UgHYkQhk64OZgmiQ3Fo
+GcKmGOmGQGlZIIq20g80G2ufvEkzdfd8nsuHCrSfPrk0HitJxEaUDoteWiwxuuzT
++3vSM/LdjMmVXec7rqx/XtF85dDKbyfNypT2xGfuXLTm9fj56Rt9D/c+G/bi2LLV
+df/WPo+RgWkXK1LfdT2tuV09UKyqL5n8uPr2P62r589e0rm/50RdMXZ4wdje/tIv
+OtWG/Y0PW+/H+zd31v0yo2XfluMND6pfxvMNRwuvXwwcm3DumpxU9769r+XRph1d
+f8w7e2Rcf+3T7Plvvr9c771N3IpP/bl7xV8TFnfPq9jXmJlS/uf1cnWgQT2+uNha
+u3FO5d8vD6cb1v1OW9tuvRXpnxJgy5vinq1dYGfj4JdXawmoxNvndozb9eud+u6+
+U1/nvirb1lusvTk4a9uKjpqDE8umXVp0xrhXmD5+92AR/wdrcEMy
+=QJNM
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dannydb
+
+==================================================================
