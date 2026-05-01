@@ -5,6 +5,7 @@ export interface Project {
   date: string;
   description: string;
   repo?: string;
+  archived?: boolean;
 }
 
 const projects: Project[] = [
@@ -14,6 +15,7 @@ const projects: Project[] = [
     image: 'shaleplay_3x2_sm_g.jpg',
     name: 'Shale Play',
     url: 'http://stateimpact.npr.org/pennsylvania/drilling/',
+		archived: true,
   },
   {
     date: 'May 18, 2013',
@@ -22,6 +24,7 @@ const projects: Project[] = [
     name: 'Previously, On Arrested Development',
     repo: 'nprapps/arrested-development',
     url: 'http://apps.npr.org/arrested-development/',
+		archived: true,
   },
   {
     date: 'July 2, 2014',
@@ -88,6 +91,20 @@ const projects: Project[] = [
     image: 'boko.jpg',
     name: 'Kidnapped as Schoolgirls by Boko Haram: Here They Are Now',
     url: 'https://www.nytimes.com/interactive/2018/04/11/world/africa/nigeria-boko-haram-girls.html',
+  },
+	{
+    date: 'September 20, 2024',
+    description: 'He didn’t want to fight in Putin’s war — he just wanted to survive. But to make it back to his family and live in peace, he would have to run.',
+    image: 'deserter_3x2_sm.webp',
+    name: 'The Deserter',
+    url: 'https://www.nytimes.com/interactive/2024/09/20/magazine/ukraine-russia-war-deserter.html',
+  },
+	{
+    date: 'November 20, 2025',
+    description: '',
+    image: 'gift_guide_2025_3x2_sm.webp',
+    name: 'Holiday Gift Guide 2025',
+    url: 'https://www.nytimes.com/interactive/2025/us/holiday-gift-guide.html',
   },
 ];
 

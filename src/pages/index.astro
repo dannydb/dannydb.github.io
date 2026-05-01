@@ -62,7 +62,7 @@ const siteConfig = {
   <div id="work" class="work">
     <h2>Work</h2>
     <ul class="projects">
-      {[...projects].reverse().map((project) => (
+      {[...projects].filter(p => !p.archived).reverse().map((project) => (
         <li class="project">
           <a
             href={project.url}

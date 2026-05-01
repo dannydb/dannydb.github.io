@@ -2,3 +2,5 @@ _site
 .sass-cache
 .asset-cache
 node_modules
+dist
+.astro
