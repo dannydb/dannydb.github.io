@@ -473,3 +473,53 @@ footer {
     padding: 30px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  .work,
+  .resume,
+  footer {
+    background: #141414;
+    color: #e9e9e9;
+  }
+
+  .work {
+    background: #1a1a1a;
+  }
+
+  .resume {
+    h3 {
+      border-top-color: #3a3a3a;
+    }
+
+    em {
+      color: #b5b5b5;
+    }
+
+    a,
+    a:visited {
+      color: #e9e9e9;
+    }
+  }
+
+  footer {
+    color: #b5b5b5;
+  }
+
+  @media (hover: none) {
+    .work .project-info {
+      .project-header a {
+        color: #f5f5f5;
+      }
+
+      .project-meta .repo-link,
+      .project-meta .repo-link:visited {
+        color: #c2c2c2;
+        border-bottom-color: #8e8e8e;
+      }
+    }
+  }
+}
