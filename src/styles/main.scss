@@ -1,5 +1,5 @@
 // Breakpoints
-// >phone  = min-width: 481px
+// >phone  = min-width: 600px
 // >tablet = min-width: 769px
 
 // Global
@@ -47,12 +47,58 @@ a {
   background-color: transparent;
 }
 
+:root {
+  --background-blue-lagoon: linear-gradient(to bottom, #191654, #43c6ac);
+  --background-dawn: linear-gradient(to bottom, #00223e, #ffa17f);
+  --background-celestial: linear-gradient(to bottom, #1d2671, #c33764);
+}
+
+@media (min-width: 600px) {
+  body:before {
+    position: fixed;
+    content: ' ';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .theme-blue-lagoon body::before {
+    background: var(--background-blue-lagoon);
+  }
+
+  .theme-dawn body::before {
+    background: var(--background-dawn);
+  }
+
+  .theme-celestial body::before {
+    background: var(--background-celestial);
+  }
+}
+
+.outer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 75vh auto;
+  max-width: 1220px;
+  margin-inline: auto;
+  width: 100%;
+
+  @media (min-width: 600px) {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto;
+
+    .work,
+    .resume,
+    footer {
+      grid-column: 2;
+    }
+  }
+}
+
 // Header
 // -----------------------------------------------------------------------------
 .header {
-  width: 100vw;
-  height: calc(100vh * (2 / 3));
-  min-height: 414px;
   display: flex;
   flex-direction: row-reverse;
   align-items: flex-start;
@@ -61,33 +107,27 @@ a {
   position: relative;
   color: #fff;
   padding: 24px;
+  box-sizing: border-box;
 
   .theme-blue-lagoon & {
-    background: linear-gradient(to bottom, #191654, #43c6ac);
+    background: var(--background-blue-lagoon);
   }
 
   .theme-dawn & {
-    background: linear-gradient(to bottom, #00223e, #ffa17f);
+    background: var(--background-dawn);
   }
 
   .theme-celestial & {
-    background: linear-gradient(to bottom, #1d2671, #c33764);
+    background: var(--background-celestial);
   }
 
-  @media (min-width: 481px) {
+  @media (min-width: 600px) {
     padding: 32px;
-  }
-
-  @media (min-width: 769px) {
+    background: transparent !important;
     height: 100vh;
-    width: calc(100% / 3);
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
-  }
-
-  .wrapper {
-    width: 100%;
   }
 
   .logo {
@@ -168,15 +208,16 @@ a {
 
   ul.social {
     position: absolute;
+    padding: 24px;
     bottom: 0;
     left: 0;
-    padding: 0 24px;
     gap: 8px;
     transform: translate3d(0, 0, 0);
+    margin: 0;
+  }
 
-    @media (min-width: 481px) {
-      padding: 0 32px;
-    }
+  .social li {
+    margin: 0;
   }
 
   .social a {
@@ -201,16 +242,11 @@ a {
 
 // Main content offset
 // -----------------------------------------------------------------------------
+
 .work,
 .resume,
 footer {
   background: #fff;
-  overflow: hidden;
-
-  @media (min-width: 769px) {
-    width: calc(100% * 2 / 3);
-    margin-left: calc(100% / 3);
-  }
 }
 
 // Work
@@ -221,21 +257,21 @@ footer {
   h2 {
     padding: 24px 24px 0;
 
-    @media (min-width: 481px) {
+    @media (min-width: 600px) {
       padding: 32px 32px 0;
     }
   }
 
   .projects {
     list-style: none;
-    padding: 24px;
+    padding: 24px 24px;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
 
-    @media (min-width: 481px) {
-      padding: 32px;
+    @media (min-width: 600px) {
+      padding: 16px 32px 32px;
       gap: 32px;
     }
   }
@@ -446,24 +482,23 @@ footer {
   padding: 24px;
   background: #fff;
 
-  @media (min-width: 481px) {
+  @media (min-width: 600px) {
     padding: 32px;
   }
 
-  .wrapper {
+  .wrapper > div {
     max-width: 600px;
   }
 
-  h2 + div h3:first-child {
-    margin-top: 1rem;
+  h2 {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 1rem;
   }
 
   h3 {
-    border-top: 1px solid #e5e5e5;
     font-weight: 700;
     font-size: 1.3125rem;
-    margin-top: 2rem;
-    padding-top: 1rem;
+    margin-top: 1rem;
 
     + h4,
     + h5 {
@@ -514,11 +549,14 @@ footer {
 // -----------------------------------------------------------------------------
 footer {
   padding: 24px;
-  overflow: hidden;
   color: #999;
   font-size: 0.875rem;
 
-  @media (min-width: 481px) {
+  p {
+    margin: 0;
+  }
+
+  @media (min-width: 600px) {
     padding: 32px;
   }
 }
