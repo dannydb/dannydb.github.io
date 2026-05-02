@@ -19,9 +19,6 @@ const { title = 'Danny DeBelius', description = '' } = Astro.props;
     {description && <meta name="description" content={description} />}
     <meta name="msvalidate.01" content="958E44AEEBCFA279ED6727EE856C6D3F" />
 
-    <script src="https://use.typekit.net/pda4fri.js"></script>
-    <script>try { (window as any).Typekit.load({ async: true }); } catch(e) {}</script>
-
     <link id="favicon" rel="icon" href="/img/favicon-theme-dusk.png" />
 
     <script>
@@ -36,7 +33,9 @@ const { title = 'Danny DeBelius', description = '' } = Astro.props;
         '/img/favicon-theme-celestial.png',
       ];
       document.documentElement.classList.add(themes[themeIndex]);
-      const faviconEl = document.getElementById('favicon') as HTMLLinkElement | null;
+      const faviconEl = document.getElementById(
+        'favicon',
+      ) as HTMLLinkElement | null;
       if (faviconEl) faviconEl.href = favicons[themeIndex];
     </script>
   </head>
