@@ -125,10 +125,30 @@ const projects: Project[] = [
     url: 'https://www.nytimes.com/interactive/2018/04/11/world/africa/nigeria-boko-haram-girls.html',
   },
   {
+    date: 'October 2, 2018',
+    description:
+      'The president has long sold himself as a self-made billionaire, but a Times investigation found that he received at least $413 million in today’s dollars from his father’s real estate empire, much of it through tax dodges in the 1990s.',
+    role: 'Design, Development',
+    image: 'taxes.jpg',
+    name: 'Trump Engaged in Suspect Tax Schemes as He Reaped Riches From His Father',
+    organization: 'The New York Times',
+    url: 'https://www.nytimes.com/interactive/2018/10/02/us/politics/donald-trump-tax-schemes-fred-trump.html',
+  },
+  {
+    date: 'January 9, 2020',
+    description:
+      'We picked destinations to inspire you, delight you and motivate you to explore the world.',
+    role: 'Design, Development',
+    image: '52_places_3x2.webp',
+    name: '52 Places to Go in 2020',
+    organization: 'The New York Times',
+    url: 'https://www.nytimes.com/interactive/2020/travel/places-to-visit.html',
+  },
+  {
     date: 'September 20, 2024',
     description:
       'He didn’t want to fight in Putin’s war — he just wanted to survive. But to make it back to his family and live in peace, he would have to run.',
-    role: 'Development',
+    role: 'Design, Development',
     image: 'deserter_3x2_sm.webp',
     name: 'The Deserter',
     organization: 'The New York Times',
