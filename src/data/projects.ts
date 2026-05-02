@@ -138,7 +138,7 @@ const projects: Project[] = [
     date: 'January 9, 2020',
     description:
       'We picked destinations to inspire you, delight you and motivate you to explore the world.',
-    role: 'Design, Development',
+    role: 'Development',
     image: '52_places_3x2.webp',
     name: '52 Places to Go in 2020',
     organization: 'The New York Times',
