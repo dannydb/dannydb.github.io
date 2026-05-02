@@ -145,11 +145,51 @@ const projects: Project[] = [
     url: 'https://www.nytimes.com/interactive/2020/travel/places-to-visit.html',
   },
   {
+    date: 'April 20, 2023',
+    description:
+      'We asked actresses, writers, musicians, filmmakers, painters and others to each pick a creative heir — in their field or outside it.',
+    role: 'Development',
+    image: 'culture_2023_3x2.webp',
+    name: 'T Magazine: Culture 2023',
+    organization: 'The New York Times',
+    url: 'https://www.nytimes.com/interactive/2023/04/20/t-magazine/women-artists-culture-mentors.html',
+  },
+  {
+    date: 'April 20, 2023',
+    description:
+      'In our 2023 Greats issue, out Oct. 22, T celebrates four talents across music, film, art and fashion whose careers are a master class in curiosity, composure and defiance.',
+    role: 'Development',
+    image: 'greats_2023_3x2.webp',
+    name: 'T Magazine: Greats 2023',
+    organization: 'The New York Times',
+    url: 'https://www.nytimes.com/interactive/2023/10/19/t-magazine/greats-latifah-bening-prada-taylor.html',
+  },
+  {
+    date: 'April 18, 2024',
+    description:
+      'We spoke to 150 artists, some planning retrospectives and others making their debut, to ask about the process of starting something.',
+    role: 'Development',
+    image: 'culture_2024_3x2.webp',
+    name: 'T Magazine: Culture 2024',
+    organization: 'The New York Times',
+    url: 'https://www.nytimes.com/interactive/2024/04/18/t-magazine/music-art-fashion-beginnings.html',
+  },
+  {
+    date: 'October 17, 2024',
+    description:
+      'T celebrates four talents across music, art and fashion who, through patience and perseverance, have transformed the culture.',
+    role: 'Development',
+    image: 'greats_2024_3x2.webp',
+    name: 'T Magazine: Greats 2024',
+    organization: 'The New York Times',
+    url: 'https://www.nytimes.com/interactive/2024/10/17/t-magazine/lorna-simpson-ebony-magazine-race-gender.html',
+  },
+  {
     date: 'September 20, 2024',
     description:
       'He didn’t want to fight in Putin’s war — he just wanted to survive. But to make it back to his family and live in peace, he would have to run.',
-    role: 'Design, Development',
-    image: 'deserter_3x2_sm.webp',
+    role: 'Development',
+    image: 'deserter_3x2.webp',
     name: 'The Deserter',
     organization: 'The New York Times',
     url: 'https://www.nytimes.com/interactive/2024/09/20/magazine/ukraine-russia-war-deserter.html',
@@ -162,6 +202,16 @@ const projects: Project[] = [
     name: 'Holiday Gift Guide 2025',
     organization: 'The New York Times',
     url: 'https://www.nytimes.com/interactive/2025/us/holiday-gift-guide.html',
+  },
+  {
+    date: 'April 17, 2026',
+    description:
+      'A highly idiosyncratic compendium of what you need to know right now.',
+    role: 'Development',
+    image: 'culture_2026_3x2.webp',
+    name: 'T Magazine: Culture 2026',
+    organization: 'The New York Times',
+    url: 'https://www.nytimes.com/interactive/2026/04/17/t-magazine/culture-guides-film-art-food-literature.html',
   },
   {
     date: 'May 1, 2026',
