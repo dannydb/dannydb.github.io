@@ -75,10 +75,10 @@ const siteConfig = {
               <a href={project.url}>
                 <h3>{project.name}</h3>
               </a>
-              {(project.role || project.repo) && (
+              {(project.organization || project.role || project.repo) && (
                 <p class="project-meta">
+                  {project.organization && <span class="project-org">{project.organization}</span>}
                   {project.role && <span class="project-role">{project.role}</span>}
-                  {project.repo && <a class="repo-link" href={`https://github.com/${project.repo}`}>View on GitHub</a>}
                 </p>
               )}
             </div>

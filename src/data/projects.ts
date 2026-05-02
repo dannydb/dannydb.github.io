@@ -6,6 +6,7 @@ export interface Project {
   description: string;
   repo?: string;
   role?: string;
+  organization?: string;
   archived?: boolean;
 }
 
@@ -17,6 +18,7 @@ const projects: Project[] = [
     role: 'Design, Development',
     image: 'shaleplay_3x2_sm_g.jpg',
     name: 'Shale Play',
+    organization: 'NPR',
     url: 'http://stateimpact.npr.org/pennsylvania/drilling/',
     archived: true,
   },
@@ -26,6 +28,7 @@ const projects: Project[] = [
     role: 'Design, Development',
     image: 'arrestedDev_3x2_sm_g.jpg',
     name: 'Previously, On Arrested Dev',
+    organization: 'NPR',
     repo: 'nprapps/arrested-Dev',
     url: 'http://apps.npr.org/arrested-Dev/',
     archived: true,
@@ -36,6 +39,7 @@ const projects: Project[] = [
     role: 'Design, Development',
     image: 'civil_rights_3x2_sm_g.jpg',
     name: 'Behind The Civil Rights Act',
+    organization: 'NPR',
     repo: 'nprapps/civilrights',
     url: 'http://apps.npr.org/behind-the-civil-rights-act/',
   },
@@ -46,6 +50,7 @@ const projects: Project[] = [
     role: 'Design, Development',
     image: 'songs_3x2_sm_g.jpg',
     name: 'Songs We Love 2014',
+    organization: 'NPR',
     repo: 'nprapps/bestsongs14',
     url: 'http://apps.npr.org/best-songs-2014/',
   },
@@ -55,6 +60,7 @@ const projects: Project[] = [
     role: 'Design, Development',
     image: 'austin_3x2_sm_g.jpg',
     name: 'The Austin 100',
+    organization: 'NPR',
     repo: 'nprapps/austin',
     url: 'http://apps.npr.org/austin/',
   },
@@ -65,6 +71,7 @@ const projects: Project[] = [
     role: 'Design, Development',
     image: 'inside_death_row_3x2_sm_g.jpg',
     name: 'Inside Death Row',
+    organization: 'The New York Times',
     url: 'http://www.nytimes.com/interactive/2016/05/04/opinion/the-last-phone-call.html',
   },
   {
@@ -74,6 +81,7 @@ const projects: Project[] = [
     role: 'Development',
     image: 'of_the_people_3x2_sm_g.jpg',
     name: 'Of the People',
+    organization: 'The New York Times',
     url: 'http://www.nytimes.com/interactive/projects/portraits/voters-of-the-people',
   },
   {
@@ -82,6 +90,7 @@ const projects: Project[] = [
       "A withered person with a scrambled mind, memories sealed away: That is the familiar face of Alzheimer's. But there is also the waiting period, which Geri Taylor has been navigating with prudence, grace and hope.",
     role: 'Design, Development',
     image: 'alzheimers_3x2_sm_g.jpg',
+    organization: 'The New York Times',
     name: 'Fraying at the Edges',
     url: 'http://www.nytimes.com/interactive/2016/05/01/nyregion/living-with-alzheimers.html',
   },
@@ -92,6 +101,7 @@ const projects: Project[] = [
     role: 'Design, Development',
     image: 'harvey-3x2_sm.png',
     name: "Weinstein's Complicity Machine",
+    organization: 'The New York Times',
     url: 'https://www.nytimes.com/interactive/2017/12/05/us/harvey-weinstein-complicity.html',
   },
   {
@@ -101,6 +111,7 @@ const projects: Project[] = [
     role: 'Design, Development',
     image: 'follower_factory.jpg',
     name: 'The Follower Factory',
+    organization: 'The New York Times',
     url: 'https://www.nytimes.com/interactive/2018/01/27/technology/social-media-bots.html',
   },
   {
@@ -110,6 +121,7 @@ const projects: Project[] = [
     role: 'Development',
     image: 'boko.jpg',
     name: 'Kidnapped as Schoolgirls by Boko Haram: Here They Are Now',
+    organization: 'The New York Times',
     url: 'https://www.nytimes.com/interactive/2018/04/11/world/africa/nigeria-boko-haram-girls.html',
   },
   {
@@ -119,6 +131,7 @@ const projects: Project[] = [
     role: 'Development',
     image: 'deserter_3x2_sm.webp',
     name: 'The Deserter',
+    organization: 'The New York Times',
     url: 'https://www.nytimes.com/interactive/2024/09/20/magazine/ukraine-russia-war-deserter.html',
   },
   {
@@ -127,6 +140,7 @@ const projects: Project[] = [
     role: 'Design, Development',
     image: 'gift_guide_2025_3x2_sm.webp',
     name: 'Holiday Gift Guide 2025',
+    organization: 'The New York Times',
     url: 'https://www.nytimes.com/interactive/2025/us/holiday-gift-guide.html',
   },
   {
@@ -135,6 +149,7 @@ const projects: Project[] = [
     role: 'UX Design and Engineering',
     image: 'church_center_3x2.webp',
     name: 'Church Center',
+    organization: 'Planning Center',
     url: 'https://planningcenter.com',
   },
   {
@@ -142,7 +157,8 @@ const projects: Project[] = [
     description: '',
     role: 'UX Design and Engineering',
     image: 'publishing_3x2.webp',
-    name: 'Planning Center Publishing',
+    name: 'Publishing',
+    organization: 'Planning Center',
     url: 'https://planningcenter.com',
   },
 ];

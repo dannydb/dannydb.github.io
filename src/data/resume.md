@@ -1,12 +1,13 @@
 ---
 body_class: homepage
-description: 'I‘m a designer and developer at <a href="https://planning.center">Planning
+description:
+  'I‘m a designer and developer at <a href="https://planning.center">Planning
   Center</a>. Previously, I was a designer, developer and editor at The New York Times
   and NPR. '
 layout: home
 title: Danny DeBelius
-
 ---
+
 ### Experience
 
 #### Senior Front-End Designer
@@ -14,56 +15,56 @@ title: Danny DeBelius
 _Planning Center, Carlsbad, CA_  
 _July 2018 — Present_
 
-* Design and develop the Church Center — a congregant-facing React Native app for Android and iOS
+- Design and develop the Church Center — a congregant-facing React Native app for Android and iOS
 
 #### Graphics/Multimedia Editor
 
 _The New York Times, New York, N.Y._  
 _July 2015 — July 2018_
 
-* Designed and developed enterprise and multimedia story presentation
-* Contributed to internal tools used by Digital News Design and the Graphics desk
+- Designed and developed enterprise and multimedia story presentation
+- Contributed to internal tools used by Digital News Design and the Graphics desk
 
 #### News Application Designer
 
 _NPR, Washington, D.C._  
 _April 2013 — June 2015_
 
-* Designed visuals and interactions for Visuals team projects
-* Authored HTML, LESS, CSS, Javascript and Python to realize project designs in code
-* Tested interfaces to improve user experience
-* Contributed to the NPR Visuals app template, dailygraphics rig and other open-source tools used in our project stack
+- Designed visuals and interactions for Visuals team projects
+- Authored HTML, LESS, CSS, Javascript and Python to realize project designs in code
+- Tested interfaces to improve user experience
+- Contributed to the NPR Visuals app template, dailygraphics rig and other open-source tools used in our project stack
 
 #### Senior User Experience Designer
 
 _NPR, Washington, D.C._  
 _April 2011 — April 2013_
 
-* Led user interface design for StateImpact editorial platform and news applications
-* Contributed to the front-end development of StateImpact’s Wordpress theme and special projects
-* Collaborated with NPR user testing group to improve user experience
+- Led user interface design for StateImpact editorial platform and news applications
+- Contributed to the front-end development of StateImpact’s Wordpress theme and special projects
+- Collaborated with NPR user testing group to improve user experience
 
 #### Senior Web Designer
 
 _Las Vegas Sun, Henderson, Nev._  
 _February 2009 — April 2011_
 
-* Oversaw visual design and front-end development of LasVegasSun.com
+- Oversaw visual design and front-end development of LasVegasSun.com
   and its mobile counterpart
-* Contributed to visual design and front-end development of
+- Contributed to visual design and front-end development of
   LasVegasWeekly.com and 702.tv
-* Developed user interface prototype for Las Vegas Weekly’s iPhone app
+- Developed user interface prototype for Las Vegas Weekly’s iPhone app
 
 #### Design Producer
 
 _Rocky Mountain News, Denver, Colo._  
 _March 2008 — February 2009_
 
-* Led front-end development in Django, ColdFusion and Movable Type
+- Led front-end development in Django, ColdFusion and Movable Type
   environments
-* Collaborated with corporate user experience group to make site
+- Collaborated with corporate user experience group to make site
   improvements based on usability testing
-* Refined site markup and information architecture to reach search
+- Refined site markup and information architecture to reach search
   engine optimization goals
 
 #### Site Manager
@@ -71,7 +72,7 @@ _March 2008 — February 2009_
 _Wildwood Guitars, Louisville, Colo._  
 _May 2006 — March 2008_
 
-* Oversaw design, front-end development, and content management of
+- Oversaw design, front-end development, and content management of
   WildwoodGuitars.com
 
 <div class="page-break"></div>
@@ -81,7 +82,7 @@ _May 2006 — March 2008_
 _The Daily Camera, Boulder, Colo._  
 _May 2006 — August 2006_
 
-* Shot photo assignments on deadline, edited images in digital
+- Shot photo assignments on deadline, edited images in digital
   darkroom for print reproduction
 
 #### Online Content Producer
@@ -89,7 +90,7 @@ _May 2006 — August 2006_
 _The Daily Camera, Boulder, Colo._  
 _January 2004 — May 2006_
 
-* Created web components for special reports with Flash graphics,
+- Created web components for special reports with Flash graphics,
   audio, video and standards-based HTML/CSS design
 
 ### Education
@@ -104,9 +105,9 @@ _Pre-Journalism_
 
 ### Skills
 
-**Fluent** in Javascript, React, React Native, Node, HTML, CSS, LESS, SASS, Git, Visual Studio Code, Vim, Sketch, Figma, Adobe Creative Suite, Adobe Lightroom
+**Fluent** in Javascript, React, React Native, Node, HTML, CSS, SASS, Git, Visual Studio Code, Vim, Figma, Sketch, Adobe Creative Suite, Adobe Lightroom
 
-**Proficient** in Python, D3, Wordpress, SVN, Bash
+**Proficient** in Python, D3, Wordpress
 
 ### Awards
 

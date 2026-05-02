@@ -260,34 +260,42 @@ footer {
     position: relative;
 
     h3 {
-      font-size: 16px;
+      font-size: 1rem;
       font-weight: 400;
       margin-bottom: 0;
-      line-height: 1.2;
+      line-height: 1.25;
     }
 
     .project-header a {
       display: block;
       color: #000;
-      text-decoration: none;
+      text-decoration: none;	
     }
 
     .project-meta {
+      margin-bottom: 0.25rem;
+			font-size: 0.875rem;
+			line-height: 1.25rem;	
       margin-bottom: 0;
+			display: flex;
+			align-items: flex-start;
+			flex-direction: column;
+			gap: 0;
+
+    }
+
+    .project-org {
+      color: #777;
     }
 
     .project-role {
-      display: block;
       color: #777;
-      font-size: 13px;
-      margin-block: 0.25rem;
     }
 
     .project-meta .repo-link,
     .project-meta .repo-link:visited {
       display: inline;
       color: #777;
-      font-size: 13px;
       border-bottom: 1px solid #999;
       text-decoration: none;
     }
@@ -378,22 +386,26 @@ footer {
       left: 0;
       color: #fff;
       padding: 0.5rem;
+			margin-block: 0;
       z-index: 200;
-      text-align: left;
-      margin-bottom: 0;
+    }
+
+    .project-org {
+      display: block;
+      color: rgba(255, 255, 255, 0.8);
+      font-weight: 400;
+      margin-bottom: 0.25rem;
     }
 
     .project-role {
       display: block;
       color: rgba(255, 255, 255, 0.7);
-      font-size: 13px;
       margin-bottom: 0.25rem;
     }
 
     .repo-link,
     .repo-link:visited {
       color: rgba(255, 255, 255, 0.7);
-      font-size: 14px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.5);
       text-decoration: none;
 
@@ -529,14 +541,13 @@ footer {
         color: #f5f5f5;
       }
 
-			.project-role {
+			.project-meta {
 				color: #c2c2c2;
 			}
 
-      .project-meta .repo-link,
-      .project-meta .repo-link:visited {
-        color: #c2c2c2;
-        border-bottom-color: #8e8e8e;
+      .project-meta a.repo-link,
+      .project-meta a.repo-link:visited {
+        border-bottom-color: #555;
       }
     }
   }
