@@ -42,7 +42,7 @@ a {
 // -----------------------------------------------------------------------------
 .header {
   width: 100vw;
-  height: 50vh;
+  height: calc(100vh * (2/3));
   min-height: 414px;
   display: flex;
   flex-direction: row-reverse;
