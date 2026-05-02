@@ -431,7 +431,7 @@ footer {
     max-width: 600px;
   }
 
-  h2 + h3 {
+  h2 + div h3:first-child {
     margin-top: 1rem;
   }
 
