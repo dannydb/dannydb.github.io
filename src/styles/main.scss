@@ -43,10 +43,6 @@ h2 {
   padding-bottom: 0;
 }
 
-a {
-  background-color: transparent;
-}
-
 :root {
   --background-blue-lagoon: linear-gradient(to bottom, #191654, #43c6ac);
   --background-dawn: linear-gradient(to bottom, #00223e, #ffa17f);
@@ -99,15 +95,9 @@ a {
 // Header
 // -----------------------------------------------------------------------------
 .header {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex: 1;
   position: relative;
   color: #fff;
   padding: 24px;
-  box-sizing: border-box;
 
   .theme-blue-lagoon & {
     background: var(--background-blue-lagoon);
@@ -240,9 +230,6 @@ a {
   }
 }
 
-// Main content offset
-// -----------------------------------------------------------------------------
-
 .work,
 .resume,
 footer {
@@ -293,7 +280,7 @@ footer {
     display: block;
     background-size: cover;
     background-position: top left;
-    padding-bottom: calc(100% * 2 / 3);
+    aspect-ratio: 3 / 2;
     background-repeat: no-repeat;
   }
 
@@ -578,8 +565,8 @@ footer {
   }
 
   .resume {
-    h3 {
-      border-top-color: #3a3a3a;
+    h2 {
+      border-bottom-color: #3a3a3a;
     }
 
     em {
