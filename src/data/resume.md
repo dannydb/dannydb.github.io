@@ -10,12 +10,17 @@ title: Danny DeBelius
 
 ### Experience
 
+#### Lead UX Engineer
+
+_Planning Center, Carlsbad, CA_  
+_June 2024 — Present_
+
 #### Senior Front-End Designer
 
 _Planning Center, Carlsbad, CA_  
-_July 2018 — Present_
+_July 2018 — June 2024_
 
-- Design and develop the Church Center — a congregant-facing React Native app for Android and iOS
+- Designed and developed Church Center App — a congregant-facing React Native app for Android and iOS
 
 #### Graphics/Multimedia Editor
 
