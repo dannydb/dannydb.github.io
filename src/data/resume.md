@@ -72,7 +72,7 @@ _March 2008 — February 2009_
 - Refined site markup and information architecture to reach search
   engine optimization goals
 
-#### Site Manager
+#### Webmaster
 
 _Wildwood Guitars, Louisville, Colo._  
 _May 2006 — March 2008_
